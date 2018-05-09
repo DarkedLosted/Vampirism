@@ -1,0 +1,42 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/trademenu.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/trademenu.js" />
+	</scripts>
+				<Panel class="Root" hittest="false">
+					
+						<Panel id="TradeMenuBttn" onactivate="Toggle()">
+		                <Image id="TradeImage"  src="file://{images}/custom_game/trademenu.tga"/>
+		                <Label id="TradeLabel" text="Trade Menu"/>
+		           		</Panel>
+
+									<Panel id="Container" hittest="false" >
+										
+										<Panel id="TitleContainer" hittest="false">
+											<Label class="ContainerLabel"  text="PlayerName" id="PlayerName" />
+											<Label class="ContainerLabel" text="Color" id="Color"/>
+											<Label class="ContainerLabel" text="Gold" id="Gold"/>
+											<Label class="ContainerLabel" text="Lumber" id="Lumber"/>
+											<Label id="CloseButton" onactivate="Toggle()"/>
+										</Panel>
+
+											<Panel id="PlayerContainer" hittest="false" />
+												
+										
+
+
+
+									</Panel>
+
+								<Panel hittest="false" class="Hidden" />
+								<Panel hittest="false" id="NotificationList" >
+									<!-- <Panel class="NotificationMessageHolder" >
+										<Label text="Someone trade 1500 gold 1200 lumber to someone" class="NotificationMessage" html="true" />
+									</Panel> -->
+								</Panel>
+				</Panel>
+		
+
+</root>

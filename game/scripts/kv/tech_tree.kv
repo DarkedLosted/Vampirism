@@ -1,0 +1,377 @@
+// Tech Tree File
+// Defines the requirements for being able to buy certain building/unit/upgrade
+
+// About Building Creation & Builder Abilities
+	// These abilities will show on the builder at all times, but as a disabled version that states the requirements if some of them aren't met.
+	// Every time a building is destroyed the table for the player gets updated, and a script is called to verify every requirement on builders & buildings
+	// Requirements aren't recursive, meaning if A is req for B and B is a req for C, destroying A won't make you unable to build C as long as B is up.
+
+// About Technology Upgrades - Building abilities - Research
+	// Destroying the building doesn't remove the upgrade, these are permanent until the game ends
+	// Having the previous upgrade is not a requirement, as lvl 2-3 tech will only appear on the building whenever the first one is acquired
+	// Tech Upgrade abilities are hidden once they are researched (and should be hidden on every building that has access to such research)
+	// Each time a unit spawns it should check for its upgrades. Each time an upgrade is finished, it should go through all the units and apply it.	
+
+"tech_tree"
+{
+	// Builder Abilities (prefix 'build_')
+	//--------------------------------------------------------------
+
+	"build_research_center"
+	{
+		"build_house"				"1"
+	}
+
+	"build_slayer_tavern"
+	{
+		"build_house"				"1"
+	}
+
+	"build_wall_of_health"
+	{
+		"build_house"				"1"
+	}
+
+	"build_Carnelian_wall"
+	{
+		"build_house"				"1"
+	}
+
+	"build_tower_pearl"
+	{
+		"build_house"				"1"
+	}
+
+	"build_slayers_vault"
+	{
+		"build_house"				"1"
+		"slayer_tavern"				"1"
+	}
+
+	"build_human_surplus"
+	{
+		"research_center"				"1"
+	}
+	"build_gold_mine"
+	{
+		"slayers_vault"				"1"
+		"lumber_house"		"1"
+	}
+	"build_feeding_block"
+	{
+		"slayer_tavern"		"1"
+		"slayers_vault"		"1"
+	}
+	"build_Tower_Of_Mana_Energy"
+	{
+		"ultra_research_center"		"1"
+	}
+	"build_ultra_research_center"
+	{
+		"gold_mine"				"1"
+		"lumber_house"		"1"
+	}
+	"build_Tower_Of_Opal_Spire"
+	{
+		"build_house"			"1"
+	}
+	"build_wall_tower"
+	{
+		"lumber_house"		"1"
+	}
+	"build_Wall_Of_Amethyst"
+	{
+		"research_center"		"1"
+	}
+	"build_super_gold_mine"
+	{
+		"citadel_of_faith"		"1"
+	}
+	"build_comet_tower"
+	{
+		"citadel_of_faith"		"1"
+	}
+	"build_Wall_Of_Ruby"
+	{
+		"citadel_of_faith"		"1"
+
+	}
+	"build_lightning_oracle"
+	{
+		"command_center"		"1"
+
+	}
+	"build_vampire_spire"
+	{
+		"command_center"		"1"
+
+	}
+	"build_blood_box"
+	{
+		"deforestation_house"		"1"
+
+	}
+	"build_deforestation_house"
+	{
+		"gold_mine"			"1"
+		"slayers_vault"		"1"
+
+	}
+	"build_command_center"
+	{
+		"citadel_of_faith"		"1"
+
+	}
+	"build_base_of_operations"
+	{
+		"command_center"		"1"
+
+	}
+	"build_holy_blood_tower"
+	{
+		"base_of_operations"		"1"
+
+	}
+	"build_elite_gold_mine"
+	{
+		"base_of_operations"		"1"
+
+	}
+
+	"build_armageddon_tower"
+	{
+		"base_of_operations"		"1"
+
+	}
+	"build_Tower_Of_Pink_Diamond"
+	{
+		"slayers_vault"		"1"
+
+	}
+	"build_Wall_Of_Diamond"
+	{
+		"command_center"		"1"
+
+	}
+	"build_ultra_lightning_oracle"
+	{
+		"base_of_operations"		"1"
+
+	}
+	"build_ultra_vampire_spire"
+	{
+		"base_of_operations"		"1"
+
+	}
+	"build_super_wall_tower"
+	{
+		"command_center"		"1"
+
+	}
+	"build_super_wall_of_health"
+	{
+		"ultra_research_center"		"1"
+
+	}
+	// Building Upgrades (prefix 'train_')
+	//--------------------------------------------------------------
+	
+
+	"train_lumber_house"
+	{
+		"slayers_vault"	"1"
+	}
+	"train_deforestation_house"
+	{
+		"gold_mine"	"1"
+		"slayers_vault"	"1"
+	}
+	"train_citadel_of_faith"
+	{
+		"deforestation_house"	"1"
+		"ultra_research_center"	"1"
+	}
+	"train_ultra_research_center"
+	{
+		"lumber_house"	"1"
+		"gold_mine"	"1"
+	}
+	"train_fire_spawn_deforester"
+	{
+		"command_center"	"1"
+	}
+	"train_tower_LME"
+	{
+		"research_center"	"1"
+	}
+	"train_Tower_Of_Pink_Diamond"
+	{
+		"slayers_vault"	"1"
+	}
+	"train_Tower_Of_Calcite_Outl"
+	{
+		"slayers_vault"	"1"
+	}
+	"train_Tower_Of_Flame"
+	{
+		"slayers_vault"	"1"
+	}
+	"train_Tower_Of_Blood"
+	{
+		"slayers_vault"	"1"
+	}
+	"train_Tower_Of_Super_Flame"
+	{
+		"ultra_research_center"	"1"
+	}
+	"train_Tower_Of_Ultimate_Flame"
+	{
+		"citadel_of_faith"	"1"
+	}
+	"train_Wall_Of_Topaz"
+	{
+		"research_center"	"1"
+	}
+	"train_Wall_Of_Amethyst"
+	{
+		"research_center"	"1"
+	}
+	"train_Wall_Of_Sapphire"
+	{
+		"slayers_vault"	"1"
+	}
+	"train_Wall_Of_Chrysoprase"
+	{
+		"ultra_research_center"	"1"
+		"deforestation_house"	"1"
+	}
+	"train_Wall_Of_Garnet"
+	{
+		"citadel_of_faith"	"1"
+		"ultra_research_center"	"1"
+		"deforestation_house"	"1"
+	}
+	"train_Wall_Of_Ruby"
+	{
+		"citadel_of_faith"	"1"
+		
+	}
+	"train_Wall_Of_Diamond"
+	{
+		"command_center"	"1"
+	}
+	"train_Wall_Of_Onyx"
+	{
+		"ultra_gold_mine"	"1"
+		"base_of_operations"	"1"
+	}
+	"train_ultra_gold_mine"
+	{
+		"command_center"	"1"
+	}
+	"train_tower_Mana_Energy"
+	{
+		"ultra_research_center"	"1"
+	}
+	"train_super_gold_mine"
+	{
+		"citadel_of_faith"	"1"
+	}
+	"train_ultra_lightning_oracle"
+	{
+		"base_of_operations"	"1"
+	}
+	
+	"train_ultra_vampire_spire"
+	{
+		"base_of_operations"	"1"
+	}
+	"train_command_center"
+	{
+		"citadel_of_faith"	"1"
+	}
+	"train_base_of_operations"
+	{
+		"command_center"	"1"
+	}
+	"train_holy_blood_tower"
+	{
+		"base_of_operations"	"1"
+	}
+	"train_elite_gold_mine"
+	{
+		"base_of_operations"	"1"
+	}
+	"train_armageddon_tower"
+	{
+		"base_of_operations"	"1"
+	}
+	"train_super_wall_tower"
+	{
+		"command_center"	"1"
+	}
+	"train_super_wall_of_health"
+	{
+		"ultra_research_center"	"1"
+	}
+
+
+	// Research Abilities (prefix 'research_')
+	//--------------------------------------------------------------
+
+
+	"research_tower_quality"
+	{
+		"ultra_research_center"	"1"
+	}
+	"research_human_training"
+	{
+		"ultra_research_center"	"1"
+	}
+	"research_glissenning_powder"
+	{
+		"ultra_research_center"	"1"
+	}
+	"research_iron_plate"
+	{
+		"ultra_research_center"	"1"
+	}
+	"research_tower_of_health"
+	{
+		"command_center"	"1"
+	}
+	"research_human_teleport"
+	{
+		"ultra_research_center"	"1"
+	}
+	"research_tower_defence"
+	{
+		"ultra_research_center"	"1"
+	}
+	"research_engineers_health"
+	{
+		"ultra_research_center"	"1"
+	}
+	"research_blink_extansion"
+	{
+		"citadel_of_faith"	"1"
+	}
+	"research_human_damage_upgrade"
+	{
+		"citadel_of_faith"	"1"
+	}
+	"research_human_survival_hp"
+	{
+		"slayers_vault"	"1"
+	}
+
+	// Mixed: An upgrade that requires a research
+	//--------------------------------------------------------------
+
+	// "research_dark_tower" (no requirement, on the Research Center)
+	"train_dark_tower"
+	{
+		"research"				"1"
+		"research_dark_tower"	"1"
+	}
+}

@@ -1,0 +1,29 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/dialog_box.css" />
+		
+	</styles>
+	
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/dialog_box.js" />
+	</scripts>
+	
+		<Panel class="root" hittest="false">
+			<Panel hittest="false" class="dlgMain" id="dlgVampire" >
+				<!-- <Movie id="MovieVamp"  class="HeroMovie" src="https://zippy.gfycat.com/FinishedYearlyChital.webm" controls="none" repeat="true" autoplay="onload" /> -->
+				<DOTAHeroMovie class="HeroMovie" heroname="npc_dota_hero_night_stalker" hittest="false"/>
+				<Label html="true" id="dlgVampireLabel" text="Tonight my enemies will pay , you expected daylight to protect you? You've seen your last sunrise" class="dlgText" />
+			</Panel>	
+
+			<Panel hittest="false" class="dlgMain" id="dlgSystem"  >
+				<Movie  class="HeroMovie" src="https://zippy.gfycat.com/GrimGleefulGuineapig.webm" controls="none" repeat="true" autoplay="onload" />
+				<Label html="true" id="dlgSystemLabel" text="Tonight my enemies will pay , you expected daylight to protect you? You've seen your last sunrise" class="dlgText" />
+			</Panel>	
+		</Panel>
+
+		
+
+<!-- https://zippy.gfycat.com/GrimGleefulGuineapig.webm -->
+
+
+</root>

@@ -1,0 +1,41 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/Custom_shop.css" />
+		
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/Custom_shop.js" />
+	</scripts>
+	
+		<Panel hittest="false" class="Customshop" >
+			
+	            <Panel id="Shop_btn" onactivate="Toggle()" >
+	               <Label id="Shop_label" text="Shop Menu"/>
+	            </Panel>
+
+       			 <Panel hittest="false" id="ShopContainer">
+       			 	<Panel id="ShopTab" hittest="false">
+       			 		<RadioButton   id="BasicItemsTab" group="Tab" selected="true" text="Items" onactivate="ToggleTab('item')"   />
+       			 		<RadioButton   id="SummonsTab" group="Tab" text="Summon" onactivate="ToggleTab('summ')"/>
+       			 		<RadioButton   id="GuideTab" group="Tab" text="Guide" onactivate="ToggleTab('guide')"/>
+       			 	</Panel>
+
+       			 	<Panel id="ItemsContainerTab"  />
+
+       			 	<Panel id="SummContainerTab" />
+       			 		
+       			 	<Panel id="GuideContainerTab" >
+       			 	
+                                   </Panel>
+           		</Panel>
+			
+				<Panel hittest="false" class="Hidden" id="HideButtonContainer">	
+       	 		</Panel>
+
+		</Panel>	
+
+
+
+
+
+</root>

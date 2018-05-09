@@ -1,0 +1,259 @@
+/* Если вкратце, то здесь описывают свойства элементов из XML файла
+	.Класс  {
+		свойства
+	}  
+	#ИД {
+		свойства
+	}  
+ */
+.Hidden{
+	visibility: collapse;
+	opacity: 0;
+}
+
+.Customshop
+{
+    width: 100%;
+    height: 100%;
+   
+     margin-bottom: 60px;
+    // background-color: #000000;
+}
+
+#Shop_btn
+{
+    margin-left: 0px;
+    background-image: url("s2r://panorama/images/hud/hudv2_shopbutton_png.vtex");
+    background-size: 100% 100%;
+   sound: "notification.self.death";
+     width: 150px;
+    height: 50px;
+    vertical-align: bottom;
+    horizontal-align: right;
+    //margin-bottom: 12px;
+   // margin-left: 15px;
+   //animation-name: OpacityPulse;
+   animation-duration: .82s;
+   animation-iteration-count: infinite;
+}
+#Shop_btn:hover
+{
+    brightness: 2.0;
+
+}
+
+@keyframes 'OpacityPulse'
+{
+   0%
+   {
+    opacity: 0.1;
+    transform: translateX(0px);
+     brightness: 0.2;
+   }
+   50%
+   {
+    opacity: 1;
+  transform: translateX(10px);
+     brightness: 2.0;
+   }
+   100%
+   {
+    opacity: 0.2;
+    transform: translateX(0px);
+     brightness: 0.2;
+   }
+}
+
+@keyframes 'OpacityPulses'
+{
+   0%
+   {
+    transform: translateX(0px);
+   }
+   100%
+   {
+    transform: translateX(500px);
+   }
+}
+
+#Shop_label
+{
+      vertical-align: center;
+       horizontal-align: center;
+       font-size: 22px;
+       letter-spacing: 1px;
+       text-shadow: 1px 1px 2px 2 #000000;
+        color: gold;
+
+}
+#ShopContainer
+{
+    vertical-align: center;
+    horizontal-align: right;
+    width: 500px;
+    height: 800px;
+    //background-color: black;
+    border: 1px solid #818592;
+    background-image: url("s2r://panorama/images/hud/reborn/bg_mainshop_psd.vtex");
+    background-repeat: no-repeat;
+    background-size:  cover;
+  
+}
+#ShopTab
+{
+    flow-children: right;
+    horizontal-align: left;
+    border: 1px solid#5b687277;
+    border-radius: 3px; 
+    width: 100%;
+}
+#BasicItemsTab,#SummonsTab,#GuideTab
+{
+    
+    width: 33%;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+
+
+#BasicItemsTab:selected,#SummonsTab:selected,#GuideTab:selected
+{
+    
+    background-color:  #5b6872;
+}
+
+#BasicItemsTab Label,#SummonsTab Label,#GuideTab Label 
+{
+     color: white;
+     font-weight: bold;
+     horizontal-align: center;
+     font-size: 18px;
+     letter-spacing: 1px;
+
+}
+#ShopTab
+{
+    background-color: black;
+}
+.item
+{
+   // background-color: white;
+  tooltip-position:left;
+  tooltip-arrow-position:70% ,70%;
+
+  background-repeat: no-repeat;
+   background-size: 95% 95%;
+    background-position: 50% 50%;
+
+    width: 70px;
+    height:70px;
+
+   border: 1px solid #aa7d09;
+    border-radius: 50%; 
+   
+}
+.itemStock
+{
+
+    background-position: 50% 50%;
+
+    width: 70px;
+    height:70px;
+    border-radius: 50%; 
+   
+}
+.item:hover
+{
+    brightness:2.5;
+}
+#ItemsContainerTab
+{
+    flow-children: right;
+    width: 100%;
+    height:96%;
+    margin-top: 30px;
+  
+}
+.ItemHeadRow
+{
+    padding-right: 7px;
+    padding-left: 11px;
+    flow-children:down;
+}
+.SummItem
+{
+    
+    flow-children:down;
+    border: 3px solid#5b687277;
+    border-radius: 3px; 
+    horizontal-align:left;
+}
+.OutStock
+{
+     animation-name: cooldown;
+     animation-duration: 60.0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    opacity: 0.75;
+}
+.HireBtnLabel
+{
+    color:white;
+   letter-spacing: 2px;
+
+    font-size: 24px;
+    vertical-align:center; 
+    horizontal-align:center;
+     
+}
+.HireBtn:hover
+{
+    brightness: 1.5;
+}
+.HireBtn
+{
+    width:130px;
+    height:25px;
+    vertical-align:bottom; 
+    horizontal-align:center;
+   // background-image: url("s2r://panorama/images/hud/reborn/shop_launcher_button_hover_psd.vtex");
+    background-color: gradient( linear, 0% 0%, 0% 100%, from( #3784a6 ), to( #215373 ) );
+}
+#SummContainerTab
+{
+
+   horizontal-align:left;
+   height: 96%;
+   margin-top: 30px;
+       //background-color: white;
+    flow-children:right;
+}
+.Scene
+{
+    width:166px;
+    height:200px;
+
+}
+
+
+@keyframes 'cooldown'
+{
+  0%
+  {
+    clip: radial( 50% 50%, 0deg, 0deg );
+  }
+
+
+  50%
+  {
+    clip: radial( 50% 50%, 0deg, 180deg );
+  }
+
+  100%
+  {
+    clip: radial( 50% 50%, 0deg, 360deg );
+  }
+}

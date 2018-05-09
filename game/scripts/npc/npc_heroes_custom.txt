@@ -1,0 +1,224 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_kunkka"
+	{
+		"override_hero"				"npc_dota_hero_kunkka"
+		
+		"UnitLabel"					"builder"
+		"ModelScale"				"0.5"
+		"HealthBarOffset"			"120"
+		"HasInventory"				"1"
+		"ArmorPhysical"				"0"									// Physical protection.
+		"MagicalResistance"			"0"
+
+		"SelectionGroup"            "MainBuilder"
+
+		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"AttackTargetType"			"DOTA_UNIT_TARGET_BUILDING"
+
+		"AttackDamageMin"			"100"										// Damage range min.
+		"AttackDamageMax"			"100"										// Damage range max.
+
+		//"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"		"0"										// Base strength
+		"AttributeStrengthGain"		"0"										// Strength bonus per level.
+		"AttributeBaseIntelligence"	"0"										// Base intelligence
+		"AttributeIntelligenceGain"	"0"										// Intelligence bonus per level.
+		"AttributeBaseAgility"		"0"										// Base agility
+		"AttributeAgilityGain"		"0"										// Agility bonus per level.
+		"AttackRange"				"300"
+
+		"AutoAttacksByDefault"         "0"
+		
+		"BountyXP"					"0"									// Experience earn.
+		"BountyGoldMin"				"0"										// Gold earned min.
+		"BountyGoldMax"				"0"										// Gold earned max.
+
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"300"									// Speed.
+		"MovementTurnRate"			"1.0"									// Turning rate.
+
+		"StatusHealth"				"600"									// Base health.
+		"StatusHealthRegen"			"0.4"									// Health regeneration rate.
+		"StatusMana"				"10"										// Base mana.
+		"StatusManaRegen"			"0.1"									// Mana regeneration rate.
+
+		"RepairAbility"				"repair"
+
+		"RingRadius"				"35"
+		"HasAggressiveStance"  		"0"
+		"AbilityLayout"				"10"
+		
+		"Ability1"					"repair"
+		"Ability2"					"human_mana_burn"
+		"Ability3"					"human_blink"
+		"Ability5"					""
+		"Ability4"					"humans_teleport"
+
+		"Ability6"					"build_wall_of_health"
+		"Ability7"					"build_human_surplus"
+		"Ability8" 					"build_build_house"
+		"Ability12"					"build_research_center"
+		"Ability13" 				"build_slayers_vault"
+		"Ability9"					"build_tent_1"
+		"Ability10" 				"build_Carnelian_wall"
+		"Ability14" 				"build_slayer_tavern"
+		"Ability15"					"build_gold_mine"
+		"Ability11" 				"build_tower_pearl"	
+		
+		
+		
+	}
+	
+
+
+	//=================================================================================================================
+	// HERO: Vampire
+	//=================================================================================================================
+	"npc_dota_hero_night_stalker"
+	{
+		"override_hero"				"npc_dota_hero_night_stalker"
+		"UnitLabel"					"vampire"
+		"AbilityLayout"				"6"
+		"Ability2"					"vampire_reveal"
+        "Ability4"					"vampire_invis"
+        "Ability3"					"vampire_strike"
+        "Ability1"					"vampire_heal"
+		"Ability5"              	"vampire_light"
+		"Ability6"					"vampire_poison"		
+		"Level"          		   "3"		
+		"AttackDamageMin"			"75"										// Damage range min.
+		"AttackDamageMax"			"75"										// Damage range max.
+		"ArmorPhysical"				"19"									// Physical protection.
+		"AttackRate"				"0.9"
+		"StatusHealth"				"500"									// Base health.
+		"StatusHealthRegen"			"8.0"									// Health regeneration rate.
+		"AttackRange"         		"128"
+				
+		// Attributes
+		//-------------------------------------------------------------------------------------------------------------
+		"AttributePrimary"				"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"			"104"									// Base strength
+		"AttributeStrengthGain"			"12"									// Strength bonus per level.
+		"AttributeBaseAgility"			"98"									// Base agility
+		"AttributeAgilityGain"			"9"									// Agility bonus per level.
+		"AttributeBaseIntelligence"		"108"									// Base intelligence
+		"AttributeIntelligenceGain"		"14"									// Intelligence bonus per level.
+
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		//"ProjectileModel"				"500"
+		// Status
+		//-------------------------------------------------------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"				"400"									// Speed.
+		"MovementTurnRate"			"0.5"									// Turning rate.
+		"StatusMana"				"1000"										// Base mana.
+		
+		"BoundsHullName"			"DOTA_HULL_SIZE_HERO"
+		//"RingRadius"				"70"
+		
+		"VisionNighttimeRange"		"1600"									// Range of vision at night time.
+        "VisionDaytimeRange"        "1600"
+				// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_BADGUYS"	
+	}
+
+
+"human_slayer"
+  {
+    "override_hero"     "npc_dota_hero_invoker"
+    "Ability1"          "slayer_blink"
+    "Ability2"          "slayer_summon_tracker"
+    "Ability3"          "slayer_ensnare"
+    "Ability4"          "slayer_building_protection"
+    "Ability5"          "slayer_avatar"
+    "Ability6"          "hero_ui"
+    "Ability7"          ""
+    "Ability8"          ""
+    "Ability9"          ""
+    "Ability10"         ""
+    "Ability11"         ""
+    "Ability12"         ""
+    "Ability13"         ""
+    "Ability14"         ""
+    "Ability15"         ""
+    "Ability16"         ""
+    "Level"             "1"
+    "ConsideredHero"    "1"
+    "AbilityLayout"     "5"
+    "NewHero"           "0"
+    "RingRadius"        "48"
+
+    "Model" "models/heroes/invoker/invoker.vmdl"
+    "precache"
+    {
+      "model"  "models/heroes/invoker/invoker_hair.vmdl"
+      "model"  "models/heroes/invoker/invoker_shoulder.vmdl"
+      "model"  "models/heroes/invoker/invoker_head.vmdl"
+      "model"  "models/heroes/invoker/invoker_cape.vmdl"
+      "model"  "models/heroes/invoker/invoker_bracer.vmdl"
+      "model"  "models/heroes/invoker/invoker_dress.vmdl"
+      "particle"  "particles/units/heroes/hero_invoker.vpcf"
+    }
+
+    // Armor
+    //-------------------------------------------------------------------------------------------------------------
+    "ArmorPhysical"       "2.2" // Physical protection.
+
+    // Attack
+    //-------------------------------------------------------------------------------------------------------------
+    "AttackCapabilities"    "DOTA_UNIT_CAP_RANGED_ATTACK"
+    "AttackDamageMin"       "32" // Damage range min.
+    "AttackDamageMax"     "40" // Damage range max.
+    "AttackRate"        "1" // Speed of attack.
+    "AttackAnimationPoint"    "0.3" // Normalized time in animation cycle to attack.
+    "AttackAcquisitionRange"  "600" // Range within a target can be acquired.
+    "AttackRange"         "180" // Range within a target can be attacked.
+    "ProjectileModel"       "" // Particle system model for projectile.
+    "ProjectileSpeed"       "1000" // Speed of projectile.
+
+    // Attributes
+    //-------------------------------------------------------------------------------------------------------------
+    "AttributePrimary"      "DOTA_ATTRIBUTE_AGILITY"
+    "AttributeBaseStrength"   "48" // Base strength
+    "AttributeStrengthGain"   "3" // Strength bonus per level.
+    "AttributeBaseIntelligence" "48" // Base intelligence
+    "AttributeIntelligenceGain" "3" // Intelligence bonus per level.
+    "AttributeBaseAgility"    "48" // Base agility
+    "AttributeAgilityGain"    "3" // Agility bonus per level.
+
+    // Movement
+    //-------------------------------------------------------------------------------------------------------------
+    "MovementCapabilities"    "DOTA_UNIT_CAP_MOVE_GROUND"     // Type of locomotion - ground, air
+    "MovementSpeed"       "400" // Speed.
+    "MovementTurnRate"      "0.5" // Turning rate.
+
+    // Status
+    //-------------------------------------------------------------------------------------------------------------
+    "StatusHealth"        "750"
+    "StatusMana"        "800"
+    "StatusHealthRegen"     "10"
+    "StatusManaRegen"     "5.5"
+    "VisionDaytimeRange"    "1400"
+    "VisionNighttimeRange"    "1600"
+
+    "ParticleFile"        "particles/units/heroes/hero_invoker.vpcf"
+    "ProjectileModel"     "particles/units/heroes/hero_invoker/invoker_base_attack.vpcf"
+    "ProjectileSpeed"     "1200"
+
+    "Creature"
+    {
+      "AttachWearables"
+      {
+        "Wearble1"  { "ItemDef"   "99" }
+        "Wearble2"  { "ItemDef"   "89" }
+        "Wearble3"  { "ItemDef"   "98" }
+        "Wearble4"  { "ItemDef"   "48" }
+        "Wearble5"  { "ItemDef"   "100" }
+        "Wearble6"  { "ItemDef"   "305" }
+      }
+    }
+  }
+
+}

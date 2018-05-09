@@ -1,0 +1,21 @@
+"dummy_vision1600"
+{
+	"BaseClass"					"npc_dota_creature"
+	"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+	"VisionDaytimeRange"		"1600"	
+	"VisionNighttimeRange"		"1600"
+	"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_WARD"
+	"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+	"Ability1"					"dummy_passive_fly"
+}
+
+"dummy_vision2400"
+{
+	"BaseClass"					"npc_dota_creature"
+	"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+	"VisionDaytimeRange"		"2400"	
+	"VisionNighttimeRange"		"2400"
+	"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_WARD"
+	"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+	"Ability1"					"dummy_passive_fly"
+}
