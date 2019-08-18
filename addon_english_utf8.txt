@@ -1,0 +1,522 @@
+﻿"lang"
+{
+	"Language"		"English"
+	"Tokens"
+	{		
+		"game_mode_15"				"Vampirism"
+		"addon_game_name"			"Vampirism"
+		
+		// DOTA 2 MODKIT GENERATED TOOLTIPS FOR: samplerts
+		// Keys already defined in addon_english.txt are not listed, nor are Modifiers with the property "IsHidden" "1".
+
+		// ******************** HEROES ********************
+		"npc_dota_hero_kunkka"                                                            "Builder"
+
+		// ******************** UNITS ********************
+		"tower"                                                                           "Tower"
+		"tower_tier2"                                                                     "Tower Tier 2"
+		"city_center"                                                                     "City Center"
+		"city_center_tier2"                                                               "City Center Tier 2"
+		"research_center"                                                                 "Research Center"
+		"dragon_tower"                                                                    "Dragon Tower"
+		"dark_tower"                                                                      "Dark Tower"
+		"wall"                                                                            "Wall"
+
+		// ******************** ABILITY MODIFIERS ********************
+		"DOTA_Tooltip_modifier_builder_repairing"                                         "Repairing"
+		"DOTA_Tooltip_modifier_builder_repairing_Description"                             "The builder is repairing"
+
+		"DOTA_Tooltip_modifier_repairing_building"                                        "Repairing"
+		"DOTA_Tooltip_modifier_repairing_building_Description"                            "This building is being repaired by nearby builders"
+
+		// ******************** ABILITIES ********************
+		// <b><font color='#eedd44'>Requires:\n - BuildingName</font></b>\n
+		"DOTA_Tooltip_ability_train_city_center_tier2"                                    "Upgrade to Tier 2"
+		"DOTA_Tooltip_ability_train_city_center_tier2_Description"                        "Allows for the construction of Dragon Towers and Ultimate research"
+		"DOTA_Tooltip_ability_train_city_center_tier2_build_time"                         "BUILD TIME:"
+		"DOTA_Tooltip_ability_train_city_center_tier2_gold_cost"                          "GOLD COST:"
+		"DOTA_Tooltip_ability_train_city_center_tier2_lumber_cost"                        "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_train_city_center_tier2_disabled"                           "Upgrade to Tier 2 Disabled"
+		"DOTA_Tooltip_ability_train_city_center_tier2_disabled_Description"               "<b><font color='#eedd44'>Requires:\n - Tech Center</font></b>\n"
+
+		"DOTA_Tooltip_ability_train_tower_tier2"                                          "Upgrade to Tier 2"
+		"DOTA_Tooltip_ability_train_tower_tier2_Description"                              "Stronger tower"
+		"DOTA_Tooltip_ability_train_tower_tier2_build_time"                               "BUILD TIME:"
+		"DOTA_Tooltip_ability_train_tower_tier2_gold_cost"                                "GOLD COST:"
+		"DOTA_Tooltip_ability_train_tower_tier2_lumber_cost"                              "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_train_dark_tower"                                           "Upgrade to Dark Tower"
+		"DOTA_Tooltip_ability_train_dark_tower_Description"                               "Ultimate tower"
+		"DOTA_Tooltip_ability_train_dark_tower_build_time"                                "BUILD TIME:"
+		"DOTA_Tooltip_ability_train_dark_tower_gold_cost"                                 "GOLD COST:"
+		"DOTA_Tooltip_ability_train_dark_tower_lumber_cost"                               "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_train_dark_tower_disabled"                                  "Upgrade to Dark Tower Disabled"
+		"DOTA_Tooltip_ability_train_dark_tower_disabled_Description"                      "<b><font color='#eedd44'>Requires:\n - Tech Center</font></b>\n"
+
+		"DOTA_Tooltip_ability_build_tower"                                                "Build Tower"
+		"DOTA_Tooltip_ability_build_tower_Description"                                    "Classic auto-build tower.\nCan be upgraded"
+		"DOTA_Tooltip_ability_build_tower_build_time"                                     "BUILD TIME:"
+		"DOTA_Tooltip_ability_build_tower_gold_cost"                                      "GOLD COST:"
+		"DOTA_Tooltip_ability_build_tower_lumber_cost"                                    "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_build_city_center"                                          "Build City Center"
+		"DOTA_Tooltip_ability_build_city_center_Description"                              "Contains the "
+		"DOTA_Tooltip_ability_build_city_center_build_time"                               "BUILD TIME:"
+		"DOTA_Tooltip_ability_build_city_center_gold_cost"                                "GOLD COST:"
+		"DOTA_Tooltip_ability_build_city_center_lumber_cost"                              "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_build_tech_center"                                          "Build Tech Center"
+		"DOTA_Tooltip_ability_build_tech_center_Description"                              "Contains the Dark Tower and Ultimate Ability researches"
+		"DOTA_Tooltip_ability_build_tech_center_build_time"                               "BUILD TIME:"
+		"DOTA_Tooltip_ability_build_tech_center_gold_cost"                                "GOLD COST:"
+		"DOTA_Tooltip_ability_build_tech_center_lumber_cost"                              "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_build_tech_center_disabled"                                 "Build Tech Center Disabled"
+		"DOTA_Tooltip_ability_build_tech_center_disabled_Description"                     "<b><font color='#eedd44'>Requires:\n - Tower</font></b>\n"
+
+		"DOTA_Tooltip_ability_build_dragon_tower"                                         "Build Dragon Tower"
+		"DOTA_Tooltip_ability_build_dragon_tower_Description"                             "Builder goes inside and offers himself as sacrifice to build this greater tower"
+		"DOTA_Tooltip_ability_build_dragon_tower_build_time"                              "BUILD TIME:"
+		"DOTA_Tooltip_ability_build_dragon_tower_gold_cost"                               "GOLD COST:"
+		"DOTA_Tooltip_ability_build_dragon_tower_lumber_cost"                             "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_build_dragon_tower_disabled"                                "Build Dragon Tower Disabled"
+		"DOTA_Tooltip_ability_build_dragon_tower_disabled_Description"                    "<b><font color='#eedd44'>Requires:\n - Tech Center\n - City Center Tier 2</font></b>\n"
+
+		"DOTA_Tooltip_ability_repair"                                                     "Repair"
+		"DOTA_Tooltip_ability_repair_Description"                                         "Repairs structures."
+
+		"DOTA_Tooltip_ability_research_dark_tower"                                        "Research Dark Tower"
+		"DOTA_Tooltip_ability_research_dark_tower_Description"                            "Allows Dragon Towers to be upgraded into Dark Towers"
+		"DOTA_Tooltip_ability_research_dark_tower_research_time"                          "RESEARCH TIME:"
+		"DOTA_Tooltip_ability_research_dark_tower_gold_cost"                              "GOLD COST:"
+		"DOTA_Tooltip_ability_research_dark_tower_lumber_cost"                            "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_research_ultimate_ability"                                  "Research Ultimate Ability"
+		"DOTA_Tooltip_ability_research_ultimate_ability_Description"                      "Lets you use your ultimate"
+		"DOTA_Tooltip_ability_research_ultimate_ability_research_time"                    "RESEARCH TIME:"
+		"DOTA_Tooltip_ability_research_ultimate_ability_gold_cost"                        "GOLD COST:"
+		"DOTA_Tooltip_ability_research_ultimate_ability_lumber_cost"                      "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_research_ultimate_ability_disabled"                         "Research Ultimate Ability Disabled"
+		"DOTA_Tooltip_ability_research_ultimate_ability_disabled_Description"             "<b><font color='#eedd44'>Requires:\n - City Center Tier 2</font></b>\n"
+
+		"DOTA_Tooltip_ability_ultimate_ability"                                           "Ultimate Ability"
+		"DOTA_Tooltip_ability_ultimate_ability_Description"                               "This is supposed to do something fancy"
+
+		"DOTA_Tooltip_ability_ultimate_ability_disabled"                                  "Ultimate Ability Disabled"
+		"DOTA_Tooltip_ability_ultimate_ability_disabled_Description"                      "<b><font color='#eedd44'>Requires:\n -  Research Ultimate Ability</font></b>\n"
+
+		
+		// ******************** ITEMS ********************
+		"DOTA_Tooltip_ability_item_building_cancel"                                       "Building Cancel"
+		"DOTA_Tooltip_ability_item_building_cancel_Description"                           ""
+
+		"DOTA_Tooltip_ability_item_build_wall"                                            "Build Wall"
+		"DOTA_Tooltip_ability_item_build_wall_Description"                                ""
+		"DOTA_Tooltip_ability_item_build_wall_build_time"                                 "BUILD TIME:"
+		"DOTA_Tooltip_ability_item_build_wall_gold_cost"                                  "GOLD COST:"
+		"DOTA_Tooltip_ability_item_build_wall_lumber_cost"                                "LUMBER COST:"
+
+		"DOTA_Tooltip_ability_item_research_dark_tower"                                   "Cancel Research Dark Tower"
+		"DOTA_Tooltip_ability_item_research_dark_tower_Description"                       ""
+
+		"DOTA_Tooltip_ability_item_research_ultimate_ability"                             "CancelResearch Ultimate Ability"
+		"DOTA_Tooltip_ability_item_research_ultimate_ability_Description"                 ""
+
+		"DOTA_Tooltip_ability_item_train_city_center_tier2"                               "Cancel Upgrade to Tier 2"
+		"DOTA_Tooltip_ability_item_train_city_center_tier2_Description"                   ""
+
+		"DOTA_Tooltip_ability_item_train_tower_tier2"                                     "Cancel Upgrade to Tier 2"
+		"DOTA_Tooltip_ability_item_train_tower_tier2_Description"                         ""
+
+		"DOTA_Tooltip_ability_item_train_dark_tower"                                      "Cancel Upgrade to Dark Tower"
+		"DOTA_Tooltip_ability_item_train_dark_tower_Description"                          ""
+
+		"vampirismf_instructions_title"													"Vampirism"
+		"vampirismf_instructions_body"													"<font color='#00BFFF'>Welcome to Vampirism!</font>\nPrepare Run"
+		
+		// ******************** HEROES ********************
+		"npc_dota_hero_ancient_apparition"                                                "Ancient Apparition"
+
+		// ******************** UNITS ********************
+		"npc_dummy_unit"                                                                  "Dummy Unit"
+		"npc_dummy_blank"                                                                 "Dummy Blank"
+		"npc_precache_everything"                                                         "Precache Everything"
+
+		// ******************** ABILITY MODIFIERS ********************
+		"DOTA_Tooltip_modifier_channel_start"                                             "Channel Start"
+		"DOTA_Tooltip_modifier_channel_start_Description"                                 ""
+
+
+		// ******************** ITEM MODIFIERS ********************
+		"DOTA_Tooltip_modifier_item_shield"                                               "Item Shield"
+		"DOTA_Tooltip_modifier_item_shield_Description"                                   ""
+
+		
+
+		// ******************** ABILITIES ********************
+		"DOTA_Tooltip_ability_example_ability"									"Detonation"
+		"DOTA_Tooltip_ability_example_ability_Description"						"Detonator channels a charge and releases an explosion around the caster if the channel is successful, dealing damage and knocking back all enemies in range of the explosion"
+		"DOTA_Tooltip_ability_example_ability_Lore"								""
+		"DOTA_Tooltip_ability_example_ability_duration"							"DURATION:"
+		"DOTA_Tooltip_ability_example_ability_radius"							"RADIUS:"
+		"DOTA_Tooltip_ability_example_ability_distance"							"KNOCKBACK DISTANCE:"
+		"DOTA_Tooltip_ability_example_ability_height"							"KNOCKBACK HEIGHT:"
+		"DOTA_Tooltip_ability_example_ability_damage"                           "DAMAGE:"
+
+		"DOTA_Tooltip_ability_vampirismf_dummy_unit"                                          "VampirismF Dummy Unit"
+		"DOTA_Tooltip_ability_vampirismf_dummy_unit_Description"                              ""
+		"DOTA_Tooltip_ability_vampirismf_dummy_unit_Note0"                                    ""
+		"DOTA_Tooltip_ability_vampirismf_dummy_unit_Lore"                                     ""
+
+		"DOTA_Tooltip_ability_vampirismf_empty1"                                              "Empty"
+		"DOTA_Tooltip_ability_vampirismf_empty1_Description"                                  ""
+		"DOTA_Tooltip_ability_vampirismf_empty1_Note0"                                        ""
+		"DOTA_Tooltip_ability_vampirismf_empty1_Lore"                                         ""
+
+		"DOTA_Tooltip_ability_vampirismf_empty2"                                              "Empty"
+		"DOTA_Tooltip_ability_vampirismf_empty2_Description"                                  ""
+		"DOTA_Tooltip_ability_vampirismf_empty2_Note0"                                        ""
+		"DOTA_Tooltip_ability_vampirismf_empty2_Lore"                                         ""
+
+		"DOTA_Tooltip_ability_vampirismf_empty3"                                              "Empty"
+		"DOTA_Tooltip_ability_vampirismf_empty3_Description"                                  ""
+		"DOTA_Tooltip_ability_vampirismf_empty3_Note0"                                        ""
+		"DOTA_Tooltip_ability_vampirismf_empty3_Lore"                                         ""
+
+		"DOTA_Tooltip_ability_vampirismf_empty4"                                              "Empty"
+		"DOTA_Tooltip_ability_vampirismf_empty4_Description"                                  ""
+		"DOTA_Tooltip_ability_vampirismf_empty4_Note0"                                        ""
+		"DOTA_Tooltip_ability_vampirismf_empty4_Lore"                                         ""
+
+		"DOTA_Tooltip_ability_vampirismf_empty5"                                              "Empty"
+		"DOTA_Tooltip_ability_vampirismf_empty5_Description"                                  ""
+		"DOTA_Tooltip_ability_vampirismf_empty5_Note0"                                        ""
+		"DOTA_Tooltip_ability_vampirismf_empty5_Lore"                                         ""
+
+		"DOTA_Tooltip_ability_vampirismf_empty6"                                              "Empty"
+		"DOTA_Tooltip_ability_vampirismf_empty6_Description"                                  ""
+		"DOTA_Tooltip_ability_vampirismf_empty6_Note0"                                        ""
+		"DOTA_Tooltip_ability_vampirismf_empty6_Lore"                                         ""
+
+		// ******************** ITEMS ********************
+
+		"DOTA_Tooltip_ability_item_example_item"								"Shield Blaster"
+		"DOTA_Tooltip_ability_item_example_item_Description"					"Gives the caster a 50% damage reduction for 4 seconds while firing a projectile that deals damage 125 PURE damage to any enemy it hits."
+		"DOTA_Tooltip_ability_item_example_item_Lore"							""
+		"DOTA_Tooltip_ability_item_example_item_duration"						"DURATION:"
+		"DOTA_Tooltip_ability_item_example_item_damage_reduction"				"DAMAGE REDUCTION:"
+		"DOTA_Tooltip_ability_item_example_item_radius"							"PROJECTILE RADIUS:"
+		"DOTA_Tooltip_ability_item_example_item_speed"							"PROJECTILE SPEED:"
+		"DOTA_Tooltip_ability_item_example_item_distance"						"DISTANCE:"
+		"DOTA_Tooltip_ability_item_example_item_damage"							"DAMAGE:"
+	
+	
+	//Replace hero names
+		"npc_dota_hero_night_stalker"											"Vampire"
+		"human_slayer"															"Slayer"
+		"npc_dota_hero_omniknight"												"Human"
+		
+
+		//Buildings
+		"gold_mine"																"Gold Mine"
+		"slayers_vault"															"Slayer's Vault"
+		"research_center"														"Research Center"
+		"human_surplus"															"Human Surplus"
+		"slayer_tavern"															"Slayer's Tavern"
+		"build_house"															"House"
+		"wall_of_health"														"Wall of Health"
+		"Carnelian_wall"														"Carnelian Wall"
+		"tower_pearl"															"Tower of Pearls"
+		
+		"Wall_Of_Topaz"															"Topaz Wall"
+		"Wall_Of_Amethyst"														"Amethyst Wall"
+		"Wall_Of_Sapphire"														"Sapphire Wall"
+		"Wall_Of_Emerald"														"Emerald Wal"
+		"Wall_Of_Chrysoprase"													"Chrysoparse Wall"
+		"Wall_Of_Garnet"														"Wall of Garnet"
+		"Wall_Of_Ruby"															"Ruby Wall"
+		"Wall_Of_Diamond"														"Diamond Wall"
+		"Wall_Of_Onyx"															"Onyx Wall"
+		"Tower_Of_Pearls"														"Shiny Pearl"
+		"Tower_Of_Lesser_Mana_Energy"											"Lesser Mana Energy"
+		"Tower_Of_Mana_Energy"													"Mana Energy"
+		"Tower_Of_Opal_Spire"													"Opal Spire"
+		"Tower_Of_Pink_Diamond"													"Pink Diamond"
+		"Tower_Of_Calcite_Outl"													"Calcite Outpost"
+		"Tower_Of_Flame"														"Flame Tower"
+		"Tower_Of_Frost"														"Frost Tower"
+		"Tower_Of_Blood"														"Blood Tower"
+		"Tower_Of_Orange_Calcite"												"Orange Calcite Outpost"
+		"Tower_Of_Super_Flame"													"Super Flame Tower"
+		"Tower_Of_Ultimate_Flame"												"Ultimate Flame Tower"
+		"tent_2"																"Huge Tent"
+		"tent_1"																"Tent"
+		"npc_dota_building_massive_grave"										"Massive Grave"
+		"human_peasant"															"Worker"
+		
+		
+		
+		//skills_human
+		"DOTA_Tooltip_Ability_menu_1"								"Build menu №1"
+		"DOTA_Tooltip_Ability_menu_1_Description"					""
+		"DOTA_Tooltip_Ability_menu_2"								"Build menu №2"
+		"DOTA_Tooltip_Ability_menu_2_Description"					""
+		"DOTA_Tooltip_Ability_go_back_menu_1"								"Back"
+		"DOTA_Tooltip_Ability_go_back_menu_1_Description"					""
+		"DOTA_Tooltip_Ability_go_back_menu_2"								"Back"
+		"DOTA_Tooltip_Ability_go_back_menu_2_Description"					""
+		
+		"DOTA_Tooltip_Ability_human_blink"								"Blink"
+		"DOTA_Tooltip_Ability_human_blink_Description"					"Just a blink :)"
+		"DOTA_Tooltip_Ability_human_repair"								"Repair"
+		"DOTA_Tooltip_Ability_human_repair_Description"					"Repairing your buildings"
+		"DOTA_Tooltip_Ability_build_tower_pearl"								"Tower of Pearls"
+		"DOTA_Tooltip_Ability_build_tower_pearl_Description"					"Damage: 21<br>Range: 600<br>Cooldown: 0.8<br><font color='#70EA72'>Gold: 10</font>"
+		"DOTA_Tooltip_Ability_build_Carnelian_wall"								"Carnelian Wall"
+		"DOTA_Tooltip_Ability_build_Carnelian_wall_Description"					"Hitpoints: 400<br>Defence: 10<br>BuildTime: 1<br><font color='#70EA72'>Gold: 10</font>"
+		"DOTA_Tooltip_Ability_build_gold_mine"								"Gold Mine"
+		"DOTA_Tooltip_Ability_build_gold_mine_Description"					"Generates gold every 60 seconds,very effective at blocking sides of your base where the vampires can blink in with a sphere of doom <br><font color='#70EA72'>Gold: 4000</font>"
+		"DOTA_Tooltip_Ability_build_slayers_vault"								"Slayer's Vault"
+		"DOTA_Tooltip_Ability_build_slayers_vault_Description"					"Test <br><font color='#70EA72'>Gold: 30</font>"
+		"DOTA_Tooltip_Ability_build_human_surplus"								"Human Surplus"
+		"DOTA_Tooltip_Ability_build_human_surplus_Description"					"Creates a shop with purchasable items<br><font color='#70EA72'>Gold: 200</font>"
+		"DOTA_Tooltip_Ability_build_wall_of_health"								"Wall of Health"
+		"DOTA_Tooltip_Ability_build_wall_of_health_Description"					"Hitpoints: 500<br>Defence: 75<br>BuildTime: 5<br>Ability: Healing Wave<br><font color='#70EA72'>Gold: 400</font>"
+		"DOTA_Tooltip_Ability_build_research_center"								"Research Center"
+		"DOTA_Tooltip_Ability_build_research_center_Description"					"Allows researching basic upgrades<br><font color='#70EA72'>Gold: 30</font>"
+		"DOTA_Tooltip_Ability_build_build_house"								"House"
+		"DOTA_Tooltip_Ability_build_build_house_Description"					"Primarily used for training workers to harvest wood. Can be upgraded for purchase of better workers<br><font color='#70EA72'>Gold: 2</font>"
+		"DOTA_Tooltip_Ability_train_lumber_house"								"Lumber House"
+		"DOTA_Tooltip_Ability_train_lumber_house_Description"					"Primarily used for training workers to harvest wood. Can be upgraded for purchase of better workers"
+		"DOTA_Tooltip_Ability_train_deforestation_house"								"Deforestation House"
+		"DOTA_Tooltip_Ability_train_deforestation_house_Description"					"Primarily used for training workers to harvest wood. Can be upgraded for purchase of better workers"
+		"DOTA_Tooltip_Ability_build_slayer_tavern"								"Slayer's Tavern"
+		"DOTA_Tooltip_Ability_build_slayer_tavern_Description"					"Summon Vampire Slayers as well as reviving fallen ones<br><font color='#70EA72'>Gold: 80</font>"
+		"DOTA_Tooltip_Ability_build_tent_1"								"Tent"
+		"DOTA_Tooltip_Ability_build_tent_1_Description"					""
+		"DOTA_Tooltip_Ability_build_tent_2"								"Huge Tent"
+		"DOTA_Tooltip_Ability_build_tent_2_Description"					""
+		
+
+		//disabled skills
+		"DOTA_Tooltip_Ability_build_tower_pearl_disabled"								"Tower of Pearls"
+		"DOTA_Tooltip_Ability_build_tower_pearl_disabled_Description"					"<b><font color='#eedd44'>Requires:\n - House</font></b>\n"
+		"DOTA_Tooltip_Ability_build_Carnelian_wall_disabled"								"Carnelian Wall"
+		"DOTA_Tooltip_Ability_build_Carnelian_wall_disabled_Description"					"<b><font color='#eedd44'>Requires:\n - House</font></b>\n"
+		"DOTA_Tooltip_Ability_build_gold_mine_disabled"								"Gold Mine"
+		"DOTA_Tooltip_Ability_build_gold_mine_disabled_Description"					"<b><font color='#eedd44'>Requires:\n - Slayer's Vault\n - Lumber House</font></b>\n"
+		"DOTA_Tooltip_Ability_build_slayers_vault_disabled"								"Slayer's Vault"
+		"DOTA_Tooltip_Ability_build_slayers_vault_disabled_Description"					"<b><font color='#eedd44'>Requires: - House\n - Slayer's Tavern</font></b>\n"
+		"DOTA_Tooltip_Ability_build_human_surplus_disabled"								"Human Surplus"
+		"DOTA_Tooltip_Ability_build_human_surplus_disabled_Description"					"<b><font color='#eedd44'>Requires:\n - Research Center</font></b>\n"
+		"DOTA_Tooltip_Ability_build_wall_of_health_disabled"								"Wall of Health"
+		"DOTA_Tooltip_Ability_build_wall_of_health_disabled_Description"					"<b><font color='#eedd44'>Requires:\n - House</font></b>\n"
+		"DOTA_Tooltip_Ability_build_research_center_disabled"								"Research Center"
+		"DOTA_Tooltip_Ability_build_research_center_disabled_Description"					"<b><font color='#eedd44'>Requires:\n - House</font></b>\n"
+		"DOTA_Tooltip_Ability_build_slayer_tavern_disabled"								"Slayer's Tavern"
+		"DOTA_Tooltip_Ability_build_slayer_tavern_disabled_Description"					"<b><font color='#eedd44'>Requires:\n - House</font></b>\n"
+		
+
+		
+		//skills_vampire 
+		"DOTA_Tooltip_Ability_vampire_light"								"Chain lightning"
+		"DOTA_Tooltip_Ability_vampire_light_Description"					"Chain lightning - test"
+		"DOTA_Tooltip_Ability_vampire_invis"								"Veil of Darkness"
+		"DOTA_Tooltip_Ability_vampire_invis_Description"					"Veil of Darkness - test"
+		"DOTA_Tooltip_Ability_vampire_strike"								"Critical Strike"
+		"DOTA_Tooltip_Ability_vampire_strike_Description"					"Critical Strike - test" 
+		"DOTA_Tooltip_Ability_vampire_heal"									"Health Beam"
+		"DOTA_Tooltip_Ability_vampire_heal_Description"						"Health Beam - test"
+		"DOTA_Tooltip_Ability_test_ability"									"Shadow Sight"
+		"DOTA_Tooltip_Ability_test_ability_Description"						"Shadow Sight - test"
+		
+		//skills_buildings
+		"DOTA_Tooltip_Ability_destroy"								"Destroy building"
+		"DOTA_Tooltip_Ability_destroy_Description"					"Destroys selected building"
+		"DOTA_Tooltip_Ability_tower_slow"								"Slow"
+		"DOTA_Tooltip_Ability_tower_slow_Description"					""
+		"DOTA_Tooltip_Ability_tower_mana_break_1"								"Feedback"
+		"DOTA_Tooltip_Ability_tower_mana_break_1_Description"					"This tower's attacks destroy 100 mana per hit against any unit, causing bonus damage equal to the mana destroyed."
+		"DOTA_Tooltip_Ability_tower_mana_break"								"Feedback"
+		"DOTA_Tooltip_Ability_tower_mana_break_Description"					"This tower's attacks destroy 50 mana per hit against any unit, causing bonus damage equal to the mana destroyed."
+		"DOTA_Tooltip_Ability_ "								""
+		"DOTA_Tooltip_Ability_ _Description"					""
+		"DOTA_Tooltip_Ability_ "								""
+		"DOTA_Tooltip_Ability_ _Description"					""
+		
+		
+		
+		
+		"DOTA_Tooltip_modifier_returning_resources"		"Carries Wood "
+		tower_slow
+		"DOTA_Tooltip_Ability_grave_aura "								"Massive Grave"
+		"DOTA_Tooltip_Ability_grave_aura_Description"					"[WIP]"
+		"DOTA_Tooltip_Ability_human_return_resources"								"Return Resources"
+		"DOTA_Tooltip_Ability_human_return_resources_Description"					"Return the carried resources to the nearest House"
+		"DOTA_Tooltip_Ability_human_gather"								"Wood Gathering "
+		"DOTA_Tooltip_Ability_human_gather_Description"					"Use skill on trees[WIP]"
+		"DOTA_Tooltip_Ability_buy_slayer"								"Summon Slayer"
+		"DOTA_Tooltip_Ability_buy_slayer_Description"					"A highly skilled Vampire Slayer.The Slayer requires a lot of lumber and time to revive... Do not let him die![WIP]"
+		"DOTA_Tooltip_Ability_slayer_ensnare"								"Ensnare"
+		"DOTA_Tooltip_Ability_slayer_ensnare_Description"					"Binds a vampire with a blessed net so that it cannot move for 3 seconds[WIP]"
+		"DOTA_Tooltip_Ability_slayer_blink"								"Blink"
+		"DOTA_Tooltip_Ability_slayer_blink_Description"					"A universal blink[WIP]"
+		"DOTA_Tooltip_Ability_human_train_peasant"								"Train Worker"
+		"DOTA_Tooltip_Ability_human_train_peasant_Description"					"Expendable wood harvesting unit.Detonate these expendables when a vampire is coming to kill it."
+		"DOTA_Tooltip_Ability_human_mana_burn"								"Mana Burn"
+		"DOTA_Tooltip_Ability_human_mana_burn_Description"					"Sends a bolt of negative energy that burns 500 points of a target enemy unit's mana.The mana combusts, dealing damage equal to the amount of mana burned."
+		"DOTA_Tooltip_Ability_human_building_tent1"								"Tent"
+		"DOTA_Tooltip_Ability_human_building_tent1_Description"					"Provides 25 food.Can also be placed to slow down vampires, if they are heading toward your workers."
+		
+		
+		
+		//Gold coins
+		"DOTA_Tooltip_Ability_item_gold_coin"								"Gold Coin"
+		"DOTA_Tooltip_Ability_item_gold_coin_Description"					"[WIP]"
+		"DOTA_Tooltip_Ability_item_gold_big_coin"								"3 Gold Coins"
+		"DOTA_Tooltip_Ability_item_gold_big_coin_Description"					"[WIP]"
+		
+		
+		
+		//shop
+		"DOTA_Tooltip_Ability_item_vampiric_boots"								"Vampiric Boots"
+		"DOTA_Tooltip_Ability_item_vampiric_boots_Description"					"Gives 60+ movespeed and  Bloodlust ability"
+		"DOTA_Tooltip_Ability_item_sphere_of_doom"								"Spehere of Doom"
+		"DOTA_Tooltip_Ability_item_sphere_of_doom_Description"					"Gives a holder one short blink"
+		"DOTA_Tooltip_Ability_item_ring_hell_lords"								"Ring of the Hell Lords"
+		"DOTA_Tooltip_Ability_item_ring_hell_lords_Description"					"A ring Infused with a power bats"
+		"DOTA_Tooltip_Ability_item_pulse_staff"								"Pulse Staff"
+		"DOTA_Tooltip_Ability_item_pulse_staff_Description"					"Summons an electrical charge to hit a slayer then bounce, to another nearby and dealing 5000 damage to both"
+		"DOTA_Tooltip_Ability_item_urn_dracula"								"Urn of Dracula"
+		"DOTA_Tooltip_Ability_item_urn_dracula_Description"					"Lets you farsight every 30s.Gives you gold and lumber every minute , Increase with Game time"
+		"DOTA_Tooltip_Ability_item_rod_of_teleportation"								"Rod of Teleportation"
+		"DOTA_Tooltip_Ability_item_rod_of_teleportation_Description"					"Teleport you to a target land unit or structure"
+		"DOTA_Tooltip_Ability_item_claws_dreadlord"								"Claws of the DreadLord"
+		"DOTA_Tooltip_Ability_item_claws_dreadlord_Description"						"Gives friendly nearby units a  bonus to damage. Lasts 5 seconds"
+		"DOTA_Tooltip_Ability_item_wand_shadowsight"								"Wand of Shadowsight"
+		"DOTA_Tooltip_Ability_item_wand_shadowsight_Description"					"Gives the player vision of a target"
+		"DOTA_Tooltip_Ability_item_wand_cyclone"								"Wand of Cyclone"
+		"DOTA_Tooltip_Ability_item_wand_cyclone_Description"					"Allows Heor to cast Cyclone,Lasts 5 sec"
+		"DOTA_Tooltip_Ability_item_sentry_wards"								"Sentry Wards"
+		"DOTA_Tooltip_Ability_item_sentry_wards_Description"					"Sentry wards for 450 sec,Contains 3 charges"
+		"DOTA_Tooltip_Ability_item_replenishment_potion"								"Replenishment Potion"
+		"DOTA_Tooltip_Ability_item_replenishment_potion_Description"					"Regenerate 2000 hit points and 1000 mana of the hero over 30 sec"
+		"DOTA_Tooltip_Ability_item_burst_gem"									"Burst Gem"
+		"DOTA_Tooltip_Ability_item_burst_gem_Description"						"Does 1500 damage to any targeted structure.Stuning building for 2.5 sec , preventing it from attacking or regenerating health"
+		"DOTA_Tooltip_Ability_item_gaunthlets_underworld"								"Gaunthlets of the Underworld"
+		"DOTA_Tooltip_ability_item_gaunthlets_underworld_bonus_damage"								"+$bonus_attack"
+		"DOTA_Tooltip_Ability_item_gaunthlets_underworld_Description"				"Increase your damage for 4000 and stat by 750"
+		"DOTA_Tooltip_Ability_item_gaunthlets_hellfire"								"Gaunthlets of HellFire"
+		"DOTA_Tooltip_Ability_item_gaunthlets_hellfire_Description"					"Gives +500 to all stats and each subsequent attack on the same targe deals  50 more damage"
+
+
+		"DOTA_Tooltip_Ability_item_ward_sentry"								"Replenishment Potion"
+		"DOTA_Tooltip_Ability_item_ward_sentry_Description"					"Chain lightning - test"
+		"DOTA_Tooltip_Ability_item_shop_att"								"Claws of Attack"
+		"DOTA_Tooltip_Ability_item_shop_att_Description"					"Increase attack damage of the hero by 20"
+		"DOTA_Tooltip_ability_item_shop_att_bonus_damage"					"+$damage"
+		"DOTA_Tooltip_Ability_item_shop_ring_regen"								"Ring of Regeneration"
+		"DOTA_Tooltip_Ability_item_shop_ring_regen_Description"					"Increase your Vampire's hit points regeneration by 20 hit points per second"
+		"DOTA_Tooltip_ability_item_shop_ring_regen_bonus_health_regen"					"+$hp_regen"
+		"DOTA_Tooltip_Ability_item_dracula_helm"								"Dracula's Helm"
+		"DOTA_Tooltip_Ability_item_dracula_helm_Description"					"Grants +3000 HP and +300 attack"
+		"DOTA_Tooltip_Ability_item_demonic_remains"								"Demonic Remains"
+		"DOTA_Tooltip_Ability_item_demonic_remains_Description"					"Boosts attack by 2000 and gives a +250 bonus to all stats"
+		
+		"DOTA_Tooltip_Ability_item_cloak_of_shadows"								"Cloak of Shadows"
+		"DOTA_Tooltip_Ability_item_cloak_of_shadows_Description"					"Gives the Vampire permanent invisibility, even while attacking [WIP]"
+		"DOTA_Tooltip_Ability_item_immunity_shield"								"Immunity Shield"
+		"DOTA_Tooltip_Ability_item_immunity_shield_Description"					"Gives you immunity to all spells, except ensnare [WIP]"
+		"DOTA_Tooltip_Ability_item_refresh_potion"								"Refresh Potion"
+		"DOTA_Tooltip_Ability_item_refresh_potion_Description"					"Restore 25000 HP/MP  [WIP]"
+		
+		
+		"DOTA_Tooltip_Ability_item_vamp_boots"								"Vampiric Boots"
+		"DOTA_Tooltip_Ability_item_vamp_boots_Description"					"Increases movement speed by 60 and gives Bloodlust ability[WIP]"
+		"DOTA_Tooltip_Ability_item_build_massive_grave"								"Massive Grave"
+		"DOTA_Tooltip_Ability_item_build_massive_grave_Description"					"Summon a huge grave that damages nearby units[WIP]"
+		"DOTA_Tooltip_Ability_item_scroll_of_beast"								"Scroll of the Beast"
+		"DOTA_Tooltip_Ability_item_scroll_of_beast_Description"					"Give friendly nearby units a 25% bonus to damage for 15 seconds[WIP]"
+		"DOTA_Tooltip_Ability_item_silent_whisper"								"Silent Whisper"
+		"DOTA_Tooltip_Ability_item_silent_whisper_Description"					"Prevents all enemies in a targeted area from using spells for 30 seconds[WIP]"
+		"DOTA_Tooltip_Ability_item_windwalk_potion"								"Windwalk Potion"
+		"DOTA_Tooltip_Ability_item_windwalk_potion_Description"					"Turns invisible for 10 minutes. The effect is loss once this Hero attacks or casts a spell, useless if you have the Cloak of Shadows[WIP]"
+		"DOTA_Tooltip_Ability_item_vamp_invul"								"Vampiric Concoction"
+		"DOTA_Tooltip_Ability_item_vamp_invul_Description"					"Makes the vampire invulnerable to damage for 15 seconds when used.An invulnerable vampire may not be the target of spells or effects.Unlimited uses."
+		"DOTA_Tooltip_Ability_item_shop_ring_protection"								"Ring of Protection"
+		"DOTA_Tooltip_Ability_item_shop_ring_protection_Description"					"Increases the armor of the Hero by 1"
+		
+		
+		//walls
+		"DOTA_Tooltip_Ability_train_Wall_Of_Topaz"								"Wall of Topaz"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Topaz_tooltip_goldcost"            "Gold:"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Topaz_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 50</font>"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Amethyst"								"Wall of Amethyst"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Amethyst_tooltip_goldcost"            "Gold: 200"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Amethyst_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 200</font>"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Sapphire"								"Wall of Sapphire"
+		"DOTA_Tooltip_ability_train_Wall_Of_Sapphire_tooltip_goldcost"            "Gold:"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Sapphire_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 1000</font>"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Emerald"								"Wall of Emerald"
+		"DOTA_Tooltip_ability_train_Wall_Of_Emerald_tooltip_goldcost"            "Gold:"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Emerald_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 2000</font>"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Chrysoprase"								"Wall of Chrysoparse"
+		"DOTA_Tooltip_ability_train_Wall_Of_Chrysoprase_tooltip_goldcost"            "Gold:"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Chrysoprase_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 6000</font>"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Garnet"								"Wall of Garnet"
+		"DOTA_Tooltip_ability_train_Wall_Of_Garnet_tooltip_goldcost"            "Gold:"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Garnet_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 16000</font>"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Ruby"								"Wall of Ruby"
+		"DOTA_Tooltip_ability_train_Wall_Of_Ruby_tooltip_goldcost"            "Gold:"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Ruby_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 30000</font>"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Diamond"								"Wall of Diamond"
+		"DOTA_Tooltip_ability_train_Wall_Of_Diamond_tooltip_goldcost"            "Gold:"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Diamond_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 50000</font>"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Onyx"								"Wall of Onyx"
+		"DOTA_Tooltip_ability_train_Wall_Of_Onyx_tooltip_goldcost"            "Gold:"
+		"DOTA_Tooltip_Ability_train_Wall_Of_Onyx_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 90000</font>"
+		
+		//towers
+		"DOTA_Tooltip_Ability_train_shiny_Pearl"								"Shiny Pearl"		
+		"DOTA_Tooltip_Ability_train_shiny_Pearl_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 30</font>"
+		
+		"DOTA_Tooltip_Ability_train_tower_LME"								"Lesser Mana Energy"		
+		"DOTA_Tooltip_Ability_train_LME_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 400</font>"
+		
+		"DOTA_Tooltip_Ability_train_tower_Mana_Energy"								"Mana Energy"		
+		"DOTA_Tooltip_Ability_train_Mana_Energy_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 700</font>"
+		
+		"DOTA_Tooltip_Ability_train_tower_Opal_Spire"								"Opal Spire"		
+		"DOTA_Tooltip_Ability_train_tower_Opal_Spire_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 160</font>"
+		
+		"DOTA_Tooltip_Ability_train_Tower_Of_Pink_Diamond"								"Pink Diamond"		
+		"DOTA_Tooltip_Ability_train_Tower_Of_Pink_Diamond_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 800</font>"
+		
+		"DOTA_Tooltip_Ability_train_Tower_Of_Calcite_Outl"								"Calcite Outpost"		
+		"DOTA_Tooltip_Ability_train_Tower_Of_Calcite_Outl_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 500</font>"
+		
+		"DOTA_Tooltip_Ability_train_Tower_Of_Flame"								"Flame Tower"		
+		"DOTA_Tooltip_Ability_train_Tower_Of_Flame_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 800</font>"
+		
+		"DOTA_Tooltip_Ability_train_Tower_Of_Frost"								"Frost Tower"		
+		"DOTA_Tooltip_Ability_train_Tower_Of_Frost_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 3000</font>"
+		
+		"DOTA_Tooltip_Ability_train_Tower_Of_Blood"								"Blood Tower"	
+		"DOTA_Tooltip_Ability_train_Tower_Of_Blood_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 3000</font>"
+		
+		"DOTA_Tooltip_Ability_train_Tower_Of_Orange_Calcite"								"Orange Calcite Outpost"		
+		"DOTA_Tooltip_Ability_train_Tower_Of_Orange_Calcite_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 1500</font>"
+		
+		"DOTA_Tooltip_Ability_train_Tower_Of_Super_Flame"								"Super Flame Tower"
+		"DOTA_Tooltip_Ability_train_Tower_Of_Super_Flame_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 2000</font>"
+		
+		"DOTA_Tooltip_Ability_train_Tower_Of_Ultimate_Flame"								"Ultimate Flame Tower"
+		"DOTA_Tooltip_Ability_train_Tower_Of_Ultimate_Flame_Description"					"Upgrade tower<br><font color='#70EA72'>Gold: 8000</font>"
+		
+
+	}
+}

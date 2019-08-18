@@ -1,0 +1,40 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/buildmenu.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/buildmenu.js" />
+		
+	</scripts>
+	
+		<Panel hittest="false" class="Main" >
+			
+	            <Panel id="BuildMenuBttn" onactivate="Toggle()">
+	                <Image id="MenuImage"  src="file://{images}/custom_game/buildmenu.tga"/>
+	                <Label id="MenuLabel" text="Build Menu"/>
+
+	            </Panel>
+            	
+		            
+       			 <Panel hittest="false" id="Container">
+       			 	<Panel hittest="false" id="Container1" class="ContainerSumm" />
+       			 	<Panel hittest="false" id="Container2" class="ContainerSumm" />
+       			 	<Panel hittest="false" id="Container3" class="ContainerSumm" />
+       			 	<Panel hittest="false" id="Container4" class="ContainerSumm" />
+       			 <Label id="CloseButton" onactivate="Toggle()"/>
+	       		 	 <Panel hittest="false" id="TitleContainer">
+	                	<Label id="Title" text="#BuildMenu"/>
+	            	</Panel>
+	            		<Panel class="ContainerRow">
+
+	            		</Panel>
+
+
+           		</Panel>
+			
+						<Panel hittest="false" class="Hidden" id="HideButtonContainer">
+								
+       	 				</Panel>
+	</Panel>	
+
+</root>

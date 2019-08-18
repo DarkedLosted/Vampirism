@@ -1,0 +1,16 @@
+GameUI.HotkeysInitialized = true;
+var hotkeys = ["q", "w", "e", "r"];
+for(var i = 0; i < 4; i++)
+{
+	Game.CreateCustomKeyBind(hotkeys[i], "+OnHotkeyPressed" + hotkeys[i]);
+	(function(i)
+	{
+		Game.AddCommand( "+OnHotkeyPressed" + hotkeys[i], function() {
+			GameUI.Ability.OnHotkeyDownEvent(i);
+		}, "", 0 );
+		Game.AddCommand( "-OnHotkeyPressed" + hotkeys[i], function() {
+			GameUI.Ability.OnHotkeyUpEvent(i);
+		}, "", 0 );
+	})(i);
+	
+} 

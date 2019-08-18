@@ -1,0 +1,41 @@
+<root>
+	<styles>
+	  <include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="file://{resources}/styles/custom_game/ShopToolTip.css" />
+		
+	</styles>
+
+	<script>
+		function setupTooltip()
+		{
+			var Name = $.GetContextPanel().GetAttributeString("teststring", "not found")
+			var gold = $.GetContextPanel().GetAttributeString("gold", "not found")
+			var lumber = $.GetContextPanel().GetAttributeString("lumber", "not found")
+			var time = $.GetContextPanel().GetAttributeInt("time", 210)
+			$('#Name').text = $.Localize("#"+Name);
+			$('#Description').text =  $.Localize("#"+Name+"_Description");
+			$('#Gold').text = gold;
+			$('#Lumber').text = lumber;
+			$('#Time').text = time;
+		}
+		
+	</script>
+
+		<Panel hittest="false" ontooltiploaded="setupTooltip()" >
+			<Panel id="Header">
+				<Label id="Name" text="Ability , Item or Unit name"/>
+			</Panel>
+			<Panel id="DescriptionContainer">
+				<Label id="Description" html="true" text=" description description description description "/>
+			</Panel>
+			<Panel id="CostContainer">
+				<Image id="GoldIcon" />
+				<Label id="Gold" text="222"/>
+				<Image id="LumberIcon" />
+				<Label id="Lumber" text="22211"/>
+				<Image id="TimeIcon" />
+				<Label id="Time" text="210"/>
+			</Panel>
+		</Panel>
+	
+</root>

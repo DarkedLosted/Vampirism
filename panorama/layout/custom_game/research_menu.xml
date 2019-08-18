@@ -1,0 +1,46 @@
+<root>
+
+	<styles>
+		<include src="file://{resources}/styles/custom_game/research_menu.css" />
+	</styles>
+
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/research_menu.js" />
+	</scripts>
+
+			<Panel class="ResearchUI" hittest="false">
+
+				<Button id="ResearchToogle" onactivate="Toggle()" >
+					<Label id="ResearchToogleLabel" text="Researchs"/>
+				</Button>
+				<Label id="researchCompleteLable" />
+				<Panel id="DisplayResearch">
+
+					<DOTAAbilityImage id="Displayimage" class="AbilityImage" abilityname="" />
+					<ProgressBar id="ResearchBar" class="ProgressBar" min="0" max="100" value="0">
+						<Label id="ResearchBarLabel"/>
+					</ProgressBar>
+				</Panel>
+
+				<Panel id="ResearchContainer">
+					<!-- <Label class="ContainerHeader" text="Researchs" /> -->
+				<!-- 	<Panel id="ButtonsContainer" class="ButtonsContainer">
+						<RadioButton  id="Rbutton_0" class="Rbutton" group="Tab" selected="false" text="Items" onactivate=""   />
+						<RadioButton   id="Rbutton_1" class="Rbutton" group="Tab" selected="false" text="Items" onactivate=""   />
+						<RadioButton  id="Rbutton_2" class="Rbutton" group="Tab" selected="false" text="Items" onactivate=""   />
+						
+					</Panel>
+					<Panel class="ColumnContainer">
+
+						<Panel class="ResearchColumn">
+							<Label class="ResearchHeader" text="Researchs" />
+							<Panel class="ResearchHeaderLine"/>
+							<DOTAAbilityImage class="AbilityImage" abilityname="" />
+							<Panel class="ResearchLine"/>
+							
+						</Panel>
+						</Panel> -->
+				</Panel>
+			</Panel>
+			
+</root>

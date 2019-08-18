@@ -1,0 +1,23 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_HitBoxSets = 
+	[
+		{
+			m_name = "default"
+			m_HitBoxes = 
+			[
+				{
+					m_name = "list0"
+					m_sSurfaceProperty = ""
+					m_nGroupId = 0
+					m_sBoneName = "cube"
+					m_vMinBounds = [ -70.0, 0.0, -55.0 ]
+					m_vMaxBounds = [ 60.0, 60.0, 55.0 ]
+					m_bTranslationOnly = false
+					m_cRenderColor = [ 0, 0, 0, 0 ]
+				},
+			]
+		},
+	]
+	m_AutoCreateSetName = ""
+}

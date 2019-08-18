@@ -1,0 +1,113 @@
+.root {
+	width: 100%;
+	height: 100%;
+}
+
+.Hidden {
+	opacity: 0;
+	visibility: collapse;
+}
+
+#MenuInfoMain {
+	width: 300px;
+	height: 30px;
+	background-color: gradient(linear, 0% 0%, 0% 100%, from(#574556), to(#574556));
+	vertical-align: top;
+	horizontal-align:right;
+	margin-top: 70px;
+	border-radius: 10px;
+}
+
+#MenuContainer {
+	width: 500px;
+	height: 470px;
+	background-color: gradient(linear, 0% 0%, 0% 100%, from(#574556), to(#574556));
+	vertical-align: top;
+	horizontal-align:right;
+	margin-top: 100px;
+	flow-children:down;
+	border-radius: 10px;
+	opacity: 0.97;
+}
+
+#HumansContainer {
+	width: 100%;
+	height: 63%;
+	flow-children:right;
+}
+
+#VampireContainer {
+	width: 100%;
+	height: 100%;
+	flow-children:right;
+}
+
+.TeamName {
+	width: 100%;
+	color:silver;
+	font-family: Arial;
+	font-size: 22px;
+	padding-left: 20px;
+	border: 3px solid #4c0001;
+}
+
+.TitleContainer {
+	width: 100%	;
+	flow-children:right;
+}
+
+.TitleLabel {
+	color:red;
+	font-family: Arial;
+	font-size: 22px;
+	color: silver;
+	text-align: center;
+	width: 20%;
+}
+
+.Text {
+	width: 100%;
+	text-align: center;
+	font-family: Arial;
+	font-size: 18px;
+	color: silver;
+	padding-top: 10px;
+}
+
+.Player {
+	flow-children:down;
+	height: 100%;
+	width: 20%;
+}
+
+.Gold {
+	flow-children:down;
+	height: 100%;
+	width: 20%;
+}
+
+.Lumber {
+    flow-children: down;
+    height: 100%;
+    width: 20%;
+}
+
+.Fed {
+	flow-children:down;
+	height: 100%;
+	width: 20%;
+}
+
+.Rank {
+	flow-children:down;
+	height: 100%;
+	width: 20%;
+}
+
+.Leaked {
+	flow-children:down;
+	height: 100%;
+	width: 20%;
+}
+	/*background-color: gradient( linear,0% 0%, 100% 0%, from( #070000 ),color-stop( 0.3, #4c0001 ), to( #070000 ) );*/
+

@@ -1,0 +1,36 @@
+.root
+{
+	width: 100%;
+	height: 100%;
+}
+.dlgMain
+{
+	width: 700px;
+	height: 150px;
+background-color: gradient( linear,0% 0%, 100% 0%, from( #070000 ),color-stop( 0.3, #4c0001 ), to( #070000 ) );
+/*	background-color:  gradient(linear,to right, #070000, #4c0001, #070000);*/
+	vertical-align: bottom;
+	horizontal-align:center;
+	margin-bottom: 17%;
+	border-radius: 25px;
+	opacity: 0.96;
+}
+.HeroMovie
+{
+	width: 150px;
+	height: 150px;
+	/*vertical-align: center;*/
+	horizontal-align:left;
+	/*margin-left: 12px;
+	border-radius: 25px;*/
+}
+.dlgText
+{
+	margin-left: 175px;
+	margin-top: 25px;
+	font-size: 27px;
+	color:white;
+	font-family: Radiance;
+	/*text-shadow: 1px 1px 4px 3.0 #121212;*/
+	opacity: 0.3;
+}

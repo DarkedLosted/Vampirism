@@ -1,0 +1,46 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_name = ""
+	m_attachments = 
+	[
+		{
+			m_name = "attach_hitloc"
+			m_influences = 
+			[
+				{
+					m_influenceName = "cube"
+					m_vTranslationOffset = [ 0.00008, 75.792618, 0.000057 ]
+					m_vRotationOffset = [ -0.000003, -0.000041, -0.000003 ]
+					m_flWeight = 1.0
+					m_bRoot = false
+				},
+			]
+		},
+		{
+			m_name = "attach_fx"
+			m_influences = 
+			[
+				{
+					m_influenceName = "cube"
+					m_vTranslationOffset = [ 10.744841, 144.976059, 24.891336 ]
+					m_vRotationOffset = [ -0.000005, -0.00041, -0.000012 ]
+					m_flWeight = 1.0
+					m_bRoot = false
+				},
+			]
+		},
+		{
+			m_name = "follow_origin"
+			m_influences = 
+			[
+				{
+					m_influenceName = "cube"
+					m_vTranslationOffset = [ 0.000067, 64.375404, 0.000048 ]
+					m_vRotationOffset = [ -0.000003, -0.000041, -0.000003 ]
+					m_flWeight = 1.0
+					m_bRoot = false
+				},
+			]
+		},
+	]
+}
