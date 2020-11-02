@@ -1,44 +1,43 @@
-var Container = $("#Container")
-var Root = $.GetContextPanel()
-var hidden = true
-var building = {}
-var hovering = $("#BuildingContainer")
-var tooltip_name = "build_tower_pearl"
-var LocalPlayerID = Game.GetLocalPlayerID()
+var Container = $("#Container");
+var Root = $.GetContextPanel();
+var hidden = true;
+var building = {};
+var hovering = $("#BuildingContainer");
+var tooltip_name = "build_tower_pearl";
+var LocalPlayerID = Game.GetLocalPlayerID();
 var PlayerTeam = Players.GetTeam(LocalPlayerID);
 
-building['Carnelian_wall']= ['build_house']
-building['tower_pearl']= ['build_house']
-building['wall_of_health']= ['build_house']
-building['slayer_tavern']= ['build_house']
-building['research_center']= ['build_house']
-building['human_surplus']= ['research_center']
-building['gold_mine']= ['slayers_vault','lumber_house']
-building['slayers_vault']= ['build_house','slayer_tavern']
-building['feeding_block']= ['slayer_tavern','slayers_vault']
-building['Tower_Of_Mana_Energy']= ['ultra_research_center']
-building['ultra_research_center']= ['gold_mine','lumber_house']
-building['Tower_Of_Opal_Spire']= ['build_house']
-building['wall_tower']= ['lumber_house']
-building['Wall_Of_Amethyst']= ['research_center']
-building['super_gold_mine']= ['citadel_of_faith']
-building['comet_tower']= ['citadel_of_faith']
-building['Wall_Of_Ruby']= ['citadel_of_faith']
-building['lightning_oracle']= ['command_center']
-building['vampire_spire']= ['command_center']
-building['blood_box']= ['deforestation_house']
-building['deforestation_house']= ['gold_mine','slayers_vault']
-building['command_center']= ['citadel_of_faith']
-building['base_of_operations']= ['command_center']
-building['holy_blood_tower']= ['base_of_operations']
-building['elite_gold_mine']= ['base_of_operations']
-building['armageddon_tower']= ['base_of_operations']
-building['Wall_Of_Diamond']= ['command_center']
-building['ultra_lightning_oracle']= ['base_of_operations']
-building['ultra_vampire_spire']= ['base_of_operations']
-building['super_wall_tower']= ['command_center']
-building['super_wall_of_health']= ['ultra_research_center']
-
+building['Carnelian_wall']= ['build_house'];
+building['tower_pearl']= ['build_house'];
+building['wall_of_health']= ['build_house'];
+building['slayer_tavern']= ['build_house'];
+building['research_center']= ['build_house'];
+building['human_surplus']= ['research_center'];
+building['gold_mine']= ['slayers_vault','lumber_house'];
+building['slayers_vault']= ['build_house','slayer_tavern'];
+building['feeding_block']= ['slayer_tavern','slayers_vault'];
+building['Tower_Of_Mana_Energy']= ['ultra_research_center'];
+building['ultra_research_center']= ['gold_mine','lumber_house'];
+building['Tower_Of_Opal_Spire']= ['build_house'];
+building['wall_tower']= ['lumber_house'];
+building['Wall_Of_Amethyst']= ['research_center'];
+building['super_gold_mine']= ['citadel_of_faith'];
+building['comet_tower']= ['citadel_of_faith'];
+building['Wall_Of_Ruby']= ['citadel_of_faith'];
+building['lightning_oracle']= ['command_center'];
+building['vampire_spire']= ['command_center'];
+building['blood_box']= ['deforestation_house'];
+building['deforestation_house']= ['gold_mine','slayers_vault'];
+building['command_center']= ['citadel_of_faith'];
+building['base_of_operations']= ['command_center'];
+building['holy_blood_tower']= ['base_of_operations'];
+building['elite_gold_mine']= ['base_of_operations'];
+building['armageddon_tower']= ['base_of_operations'];
+building['Wall_Of_Diamond']= ['command_center'];
+building['ultra_lightning_oracle']= ['base_of_operations'];
+building['ultra_vampire_spire']= ['base_of_operations'];
+building['super_wall_tower']= ['command_center'];
+building['super_wall_of_health']= ['ultra_research_center'];
 
 var mainBuilder = [{name:"build_house",gold:"0",lumber:"10",available:"true",image:"file://{images}/custom_game/house.png"},
 {name:"tent_1",gold:"0",lumber:"20",available:"true",image:"file://{images}/custom_game/human_building_house.png"},
@@ -50,7 +49,7 @@ var mainBuilder = [{name:"build_house",gold:"0",lumber:"10",available:"true",ima
 {name:"wall_of_health",gold:"0",lumber:"2000",available:"true",image:"file://{images}/custom_game/wall_of_health.png"},
 {name:"gold_mine",gold:"0",lumber:"20000",available:"true",image:"file://{images}/custom_game/human_building_gold_mine.png"},
 {name:"slayers_vault",gold:"1",lumber:"150",available:"true",image:"file://{images}/custom_game/slayers_vault.png"}
-]
+];
 var towerBuilder =  [{name:"build_house",gold:"0",lumber:"10",available:"true",image:"file://{images}/custom_game/house.png"},
 {name:"Tower_Of_Mana_Energy",gold:"1",lumber:"3500",available:"true",image:"file://{images}/custom_game/human_building_house.png"},
 {name:"feeding_block",gold:"0",lumber:"50",available:"true",image:"file://{images}/custom_game/feed_box.png"},
@@ -62,7 +61,7 @@ var towerBuilder =  [{name:"build_house",gold:"0",lumber:"10",available:"true",i
 {name:"wall_of_health",gold:"0",lumber:"2000",available:"true",image:"file://{images}/custom_game/wall_of_health.png"},
 {name:"gold_mine",gold:"0",lumber:"20000",available:"true",image:"file://{images}/custom_game/human_building_gold_mine.png"},
 {name:"wall_tower",gold:"0",lumber:"2000",available:"true",image:"file://{images}/custom_game/tower_wall.png"}
-]
+];
 var SuperTowerBuilder =  [{name:"Tower_Of_Mana_Energy",gold:"1",lumber:"3500",available:"true",image:"file://{images}/custom_game/human_building_house.png"},
 {name:"super_gold_mine",gold:"0",lumber:"50000",available:"true",image:"file://{images}/custom_game/human_building_gold_mine.png"},
 {name:"wall_tower",gold:"0",lumber:"2000",available:"true",image:"file://{images}/custom_game/tower_wall.png"},
@@ -74,7 +73,7 @@ var SuperTowerBuilder =  [{name:"Tower_Of_Mana_Energy",gold:"1",lumber:"3500",av
 {name:"blood_box",gold:"0",lumber:"1000",available:"true",image:"file://{images}/custom_game/blood_box.png"},
 {name:"command_center",gold:"400",lumber:"100000",available:"true",image:"file://{images}/custom_game/command_center.png"},
 {name:"base_of_operations",gold:"1300",lumber:"0",available:"true",image:"file://{images}/custom_game/build_tech_center.png"}
-]
+];
 var GoblinBuilder =  [{name:"deforestation_house",gold:"1",lumber:"10000",available:"true",image:"file://{images}/custom_game/human_building_house.png"},
 {name:"holy_blood_tower",gold:"2000",lumber:"1000000",available:"true",image:"file://{images}/custom_game/human_building_house.png"},
 {name:"elite_gold_mine",gold:"0",lumber:"80000",available:"true",image:"file://{images}/custom_game/human_building_gold_mine.png"},
@@ -85,25 +84,26 @@ var GoblinBuilder =  [{name:"deforestation_house",gold:"1",lumber:"10000",availa
 {name:"ultra_vampire_spire",gold:"100",lumber:"100000",available:"true",image:"file://{images}/custom_game/ultra_spire_vampire.png"},
 {name:"super_wall_tower",gold:"10",lumber:"50000",available:"true",image:"file://{images}/custom_game/super_tower_wall.png"},
 {name:"super_wall_of_health",gold:"0",lumber:"10000",available:"true",image:"file://{images}/custom_game/super_wall_of_health.png"},
-]
+];
 
 function buildui(name,event){
-   $.DispatchEvent("SetInputFocus", $.GetContextPanel().GetParent().GetParent())
-   	hidden=true;
-    Container.SetHasClass("Hidden", hidden)
- //    $.Msg("buildui_command") 
-   
+    $.DispatchEvent("SetInputFocus", $.GetContextPanel().GetParent().GetParent());
+    hidden = true;
+    Container.SetHasClass("Hidden", hidden);
+ //    $.Msg("buildui_command")
+
 	// $.Msg("buildui_command name ability:"+name)
-    var plyID = Game.GetLocalPlayerID(); 
+    var plyID = Game.GetLocalPlayerID();
     //var localHeroIndex = Players.GetPlayerHeroEntityIndex( Game.GetLocalPlayerID() );
-    var localHeroIndex = Players.GetLocalPlayerPortraitUnit()
-    var data = {		
-        playerID: plyID, 
+    var localHeroIndex = Players.GetLocalPlayerPortraitUnit();
+    var data = {
+        playerID: plyID,
         heroent: localHeroIndex,
-        buildingname:name,
-        msg: event        
-    }
-    GameEvents.SendCustomGameEventToServer(  "buildui_command",             data ); 
+        buildingname: name,
+        msg: event
+    };
+
+    GameEvents.SendCustomGameEventToServer("buildui_command", data);
 
 }
 
@@ -115,7 +115,7 @@ function MenuHide()
         BuilderRefresh()
     }
     else
-    {   
+    {
         Root.SetHasClass("Hidden", true)
     }
     $.Schedule(0.1, MenuHide);
@@ -128,13 +128,13 @@ function Toggle() {
     BuilderRefresh()
      if (hidden)
      $.DispatchEvent("DropInputFocus")
-  
+
    // $.DispatchEvent("SetInputFocus", $.GetContextPanel().FindChildTraverse("Container").FindChildTraverse("Container1"))
 }
 
 function InitialPanel(buildingTable,int)
-{ 
-   
+{
+
     //Container.RemoveAndDeleteChildren()
      var ContainerN =  $("#Container"+int)
      var bindex=0
@@ -185,7 +185,7 @@ function InitialPanel(buildingTable,int)
                 //  KeyBindInput.SetPanelEvent("oninputsubmit",function(){
                 //    $.Msg(KeyBindInput.text)
                 // })
-                 
+
             }
             })();
         }
@@ -227,20 +227,19 @@ function OnBuildingPlayer()
 
 
 function CheckRequirements(BuildingName, requirements, eventdata) {
-    var panel = $("#"+BuildingName)
-    if (panel)
-    { 
-       
-        var bRequirementFailed = false
+    var panel = $("#" + BuildingName);
+
+    if (panel) {
+        var bRequirementFailed = false;
         for (var i in requirements)
         {
-        	
-            if (eventdata[requirements[i]]==0)
-            {
-                bRequirementFailed = true
-                break
+            if (eventdata[requirements[i]] == 0) {
+                bRequirementFailed = true;
+
+                break;
             }
         }
+
         panel.SetHasClass("DisabledAbility", bRequirementFailed)
     }
 }
@@ -325,7 +324,7 @@ function InitKeybinds()
      if (!hidden)
        buildui("tent_1")
   });
-  
+
     $.RegisterKeyBind(BuildMenu, "key_c", function()
   {
      if (!hidden)
@@ -353,7 +352,7 @@ function ForcePlayerCamera()
     var EntIndex = Players.GetPlayerHeroEntityIndex(LocalPlayerID)
     GameUI.SetCameraTarget(EntIndex)
   $.Schedule(0.3,function(){GameUI.SetCameraTarget(-1)})
-    
+
   }
 function SlayerBind (event)
   {
@@ -379,7 +378,7 @@ function CheckFocus()
     }
 
   }
-$.Schedule(2, InitKeybinds); 
+$.Schedule(2, InitKeybinds);
 
 (function(){
 
@@ -398,6 +397,6 @@ $.Schedule(2, InitKeybinds);
    Toggle()
    Toggle()
    $.DispatchEvent("SetInputFocus", $.GetContextPanel().FindChildTraverse("Container").FindChildTraverse("Container1"))
-   $.Schedule(0.2, CheckFocus); 
+   $.Schedule(0.2, CheckFocus);
   }, "", 0 );
 })()

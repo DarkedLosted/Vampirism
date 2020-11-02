@@ -19,7 +19,7 @@ var hidden = true,
 function Toggle() {
 	hidden =! hidden;
 	$("#MenuContainer").SetHasClass("Hidden", hidden);
-	
+
 	if (hidden === false) {
 		GameEvents.SendCustomGameEventToServer( "Player_Inf_Upd", { "Playerid" : Players.GetLocalPlayer()} );
 	}
@@ -47,17 +47,20 @@ function Init(playerID)
 	var Player = $.CreatePanel("Label", $("#" + team + "Player"), "Player" + playerID);
 	var Gold = $.CreatePanel("Label", $("#" + team + "Gold"), "Gold" + playerID);
 	var Lumber = $.CreatePanel("Label", $("#" + team + "Lumber"), "Lumber" + playerID);
-	
+	var Rank = $.CreatePanel("Label", $("#" + team + "Rank"), "Rank" + playerID);
+
 	Player.AddClass("Text");
 	Gold.AddClass("Text");
 	Lumber.AddClass("Text");
-	
+	Rank.AddClass("Text");
+
 	Player.text = Players.GetPlayerName(playerID );
 	Player.style.color = teamColors[playerID];
 	Gold.text = PlayerInfo.player_gold;
 	Gold.style.color = "gold";
 	Lumber.style.color = "green";
 	Lumber.text = "0";
+	Rank.text = 'Best!';
 
 	//var Leaked = $.CreatePanel("Label",$.("#HumanPlayer"),"Player "+Game.GetLocalPlayerID())
 }
@@ -80,7 +83,7 @@ function Update(args)
 		$("#Lumber" + (playerID - 1)).text = Player.lumber;
 	}
 }
-	
+
 (function(){
 	GameEvents.Subscribe( "Player_Inf_Upd_response", Update );
 	$("#MenuContainer").SetHasClass("Hidden", true);

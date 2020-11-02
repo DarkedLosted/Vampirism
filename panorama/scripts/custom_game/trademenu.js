@@ -34,11 +34,11 @@ function CreateErrorMessage(msg)
     }
 }
 function OnSubmitted(event,types)
-{ 
+{
     //  $.Msg("Enter was enabled!"+$.GetContextPanel().toString());
     // $.Msg("Player SteamID on Subbmit "+GameUI.GetPlayerSteamID(event.pID));
     //var playercontainer = Container.FindChildTraverse("Player_a"+$("#Player_a" ).steamid)
-     // $.Msg("PlayerID on Subbmit "+event.pID) ; 
+     // $.Msg("PlayerID on Subbmit "+event.pID) ;
      var amount = event.text;
      if (amount==0)
         return
@@ -56,14 +56,14 @@ function OnSubmitted(event,types)
     //var localHeroIndex = Players.GetPlayerHeroEntityIndex( plyID )
    // var reciverHI = Players.GetPlayerHeroEntityIndex( parseInt(event.pID) );
     lastTrade[plyID]=Game.GetGameTime()
-    var data = {        
-        playerID: plyID, 
+    var data = {
+        playerID: plyID,
        // heroent: localHeroIndex,
       //  reciverHI:reciverHI,
         reciverid:parseInt(event.pID),
         Amount: amount,
         type:types,
-        msg: event        
+        msg: event
     }
     GameEvents.SendCustomGameEventToServer(  "tradeui_send", data );
 }
@@ -73,7 +73,7 @@ function Toggle() {
     hidden = !hidden
     Container.SetHasClass("Hidden", hidden)
     BoxEmpty()
-    
+
 }
 
 function BoxEmpty() {
@@ -86,10 +86,10 @@ function BoxEmpty() {
 }
 
 function LoadProfile(steamID64,pID) {
-     
+
           // if( Game.GetLocalPlayerID() !=pID)
           // {
-            $.Msg("Loading profile of player "+steamID64)  
+            $.Msg("Loading profile of player "+steamID64)
             var PlayerContainer = $("#PlayerContainer");
              var Player = $.CreatePanel( "Panel", PlayerContainer, "Player_a"+pID );
             Player.AddClass("Player")
@@ -123,7 +123,7 @@ function LoadProfile(steamID64,pID) {
              var ImgLumber = $.CreatePanel( "Image", Player, "Player_il"+pID );
             ImgLumber.AddClass("imglumber")
              var lumberamount = $.CreatePanel( "TextEntry", Player, "Player_la"+pID );
-            lumberamount.AddClass("TextBoxl") 
+            lumberamount.AddClass("TextBoxl")
                lumberamount.pID = pID;
                lumberamount.tabindex="auto"
              lumberamount.steamID64 = steamID64;
@@ -132,13 +132,13 @@ function LoadProfile(steamID64,pID) {
                  OnSubmitted(lumberamount,"lumber")
               };})());
          //   }
-     
+
 }
 
 function test(steamID64) {
-   
+
  //  var g = Container.FindChildTraverse("Player_"+steamID64)
-   //  $.Msg("Testplayerid "+g.pID)  
+   //  $.Msg("Testplayerid "+g.pID)
 }
 
 function Message(data)
@@ -174,16 +174,16 @@ update()
             var plyID = Game.GetLocalPlayerID();
         for (var playerID in Game.GetAllPlayerIDs())
             {
-                     
+
                     if(Players.GetTeam(plyID)==Players.GetTeam(parseInt(playerID))&&playerID!=Game.GetLocalPlayerID())
                         {
                          LoadProfile(GameUI.GetPlayerSteamID(playerID),playerID)
                         }
                    //  if(Players.GetTeam(plyID)==Players.GetTeam(parseInt(playerID))&&playerID!=Game.GetLocalPlayerID())
-                   //  { 
-                    
+                   //  {
+
                    //   LoadProfile(GameUI.GetPlayerSteamID(playerID),playerID)
-                             
+
                    // }
             }
 })()
@@ -193,7 +193,7 @@ function CreateTimer(time,name)
 time=time+Game.Time()
 timers[timers.length]={time:time,function:name}
 }
-function update() 
+function update()
 {
     var CurrentTime = Game.Time()
     for(var i =0 ; i<timers.length;i++)
@@ -210,8 +210,8 @@ function update()
             {
                 timers[i].time = CurrentTime + callback
             }
-            
+
         }
     }
-  $.Schedule(0.01, update);
-} 
+  $.Schedule(0.03, update);
+}

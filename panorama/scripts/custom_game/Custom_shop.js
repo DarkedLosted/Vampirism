@@ -71,13 +71,13 @@ function Toggle() {
     if (hidden) {
         hidden = false;
         Container.SetHasClass("Hidden", true)
-        $.Msg("Hidden - true")
+        // $.Msg("Hidden - true")
         Game.EmitSound("Shop.PanelDown");
 
     } else {
         hidden = true;
         Container.SetHasClass("Hidden", false)
-        $.Msg("Hidden - false")
+        // $.Msg("Hidden - false")
         Game.EmitSound("Shop.PanelUp");
 
     }
@@ -94,11 +94,11 @@ function ToggleTab(name) {
     // if(name=="item"){ Items.SetHasClass("Hidden",false); Summons.SetHasClass("Hidden",true); Guide.SetHasClass("Hidden",true)
     // ItemPanelInitial();
     //  }
-    // if(name=="summ"){ Items.SetHasClass("Hidden",true); Summons.SetHasClass("Hidden",false); Guide.SetHasClass("Hidden",true) 
+    // if(name=="summ"){ Items.SetHasClass("Hidden",true); Summons.SetHasClass("Hidden",false); Guide.SetHasClass("Hidden",true)
     // Items.RemoveClass("item");
     //  SummPanelInitial();
     // }
-    // if(name=="guide"){ Items.SetHasClass("Hidden",true); Summons.SetHasClass("Hidden",true); Guide.SetHasClass("Hidden",false) 
+    // if(name=="guide"){ Items.SetHasClass("Hidden",true); Summons.SetHasClass("Hidden",true); Guide.SetHasClass("Hidden",false)
 
     // }
     if (name == "item") {
@@ -133,7 +133,8 @@ function CreateTimer(time, name) {
 }
 
 function update() {
-    var CurrentTime = Game.Time()
+    var CurrentTime = Game.Time();
+
     for (var i = 0; i < timers.length; i++) {
         if (timers[i].time <= CurrentTime) {
 
@@ -146,7 +147,8 @@ function update() {
 
         }
     }
-    $.Schedule(0.01, update);
+
+    $.Schedule(0.03, update);
 }
 
 function stocking(event) {
@@ -291,7 +293,7 @@ function ItemPanelInitial() {
             //&amp;stocking("+tindex+","+timeRestock+","+storetype+")
             //(function() {
 
-            //})(); 
+            //})();
             tindex++;
         }
     }

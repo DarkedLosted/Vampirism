@@ -18,7 +18,7 @@ var center = [ { name: "research_lumber", lvl: "3" ,Rname:"Lumber Harvest",time:
        { name: "research_wall_quality", lvl: "3",Rname:"Wall Quality",time:"30" },
      { name: "research_slayer_adept", lvl: "1",Rname:"Slayer Adept" ,time:"20"},
  ]
-var ultra = [ 
+var ultra = [
      { name: "research_tower_quality", lvl: "5",Rname:"Tower" ,time:"20" ,Buildingname:"ultra_research_center"},
      { name: "research_human_training", lvl: "1",Rname:"Human Training",time:"20"},
       { name: "research_glissenning_powder", lvl: "1",Rname:"Glissenning Powder",time:"20" },
@@ -27,9 +27,9 @@ var ultra = [
      { name: "research_human_teleport", lvl: "1",Rname:"Human Teleport",time:"120" },
      { name: "research_tower_defence", lvl: "1",Rname:"Tower Defence",time:"120" },
       { name: "research_engineers_health", lvl: "1",Rname:"Engineers",time:"120" },
-     
+
  ]
- var vault = [ 
+ var vault = [
     { name: "research_blink_extansion", lvl: "1",Rname:"Blink Extansion",time:"60",Buildingname:"slayers_vault" },
      { name: "research_human_damage_upgrade", lvl: "8",Rname:"Human Damage Upg",time:"30" },
      { name: "research_human_survival_hp", lvl: "1",Rname:"Human Survival HP",time:"30" }
@@ -51,7 +51,7 @@ function ResearchCenter()
 	  	$("#ResearchToogle").SetHasClass("Hidden",true)
 	  	$("#ResearchToogle").SetHasClass("ResearchToggleEnabled",false)
 	  }
-	 
+
 	   if(temp["research_center"]>0)
 	  {
 	  	$("#Rbutton_0").SetHasClass("Hidden",false)
@@ -65,7 +65,7 @@ function ResearchCenter()
 	   if(temp["ultra_research_center"]>0)
 	  {
 	  	$("#Rbutton_1").SetHasClass("Hidden",false)
-	  
+
 	  }
 	  else
 	  {
@@ -75,18 +75,18 @@ function ResearchCenter()
 	  {
 	  	$("#Rbutton_2").SetHasClass("Hidden",false)
 
-	  
+
 	  }
 	  else
 	  {
 	  	$("#Rbutton_2").SetHasClass("Hidden",true)
 
 	  }
-	  
+
 }
 function Toggle()
-{ 
-	
+{
+
 	if(hidden&&PlayerTeam==2)
 	{4
 		hidden=false;
@@ -112,7 +112,7 @@ function InitialResearchUI()
 	ContainerHeader.text="Researches"
 	var ButtonsContainer = $.CreatePanel("Panel",Container,"ButtonsContainer")
 	ButtonsContainer.AddClass("ButtonsContainer")
-		 
+
 	for(var k =0; k<3;k++)
 	{
 		(function() {
@@ -123,7 +123,7 @@ function InitialResearchUI()
 		Rbutton.AddClass("Hidden",true)
 		Rbutton.array = array[k]
 		Rbutton.index=k
-		var RbuttonLabel = $.CreatePanel("Label",Rbutton,"RbuttonLabel_"+k) 
+		var RbuttonLabel = $.CreatePanel("Label",Rbutton,"RbuttonLabel_"+k)
 		if(k==0)
 		{
 			RbuttonLabel.text="Research Center"
@@ -139,13 +139,13 @@ function InitialResearchUI()
 		RbuttonLabel.AddClass("RbuttonLabel")
 		Rbutton.SetPanelEvent('onactivate', function(){
 			//ColumnContainer.RemoveAndDeleteChildren();
-		 //InitialContainer(Rbutton.array,ColumnContainer,Rbutton.index) 
+		 //InitialContainer(Rbutton.array,ColumnContainer,Rbutton.index)
 		 		utilhide()
 		 		ColumnContainer.SetHasClass("Hidden",false)
 				})
-	
-		})(); 
-		
+
+		})();
+
 	}
 
 	// var researchCompleteLable = $.CreatePanel("Label",$.GetContextPanel(),"researchCompleteLable")
@@ -153,7 +153,7 @@ function InitialResearchUI()
 	// researchCompleteLable.SetHasClass("researchCompleteLable", true)
 	ResearchDraw()
 
-	
+
 }
 function utilhide()
 {
@@ -163,14 +163,14 @@ $("#ColumnContainer2").SetHasClass("Hidden",true)
 }
 function ResearchDraw()
 {
-	InitialContainer(center,$("#ColumnContainer0"),0) 
-	InitialContainer(ultra,$("#ColumnContainer1"),1) 
-	InitialContainer(vault,$("#ColumnContainer2"),2) 
+	InitialContainer(center,$("#ColumnContainer0"),0)
+	InitialContainer(ultra,$("#ColumnContainer1"),1)
+	InitialContainer(vault,$("#ColumnContainer2"),2)
 }
 
 function InitialContainer(skill,ColumnContainer,ColumnNumber)
-{	
-	
+{
+
 
 	for(var m =0 ;m<skill.length;m++)
 	{
@@ -191,36 +191,36 @@ function InitialContainer(skill,ColumnContainer,ColumnNumber)
 				AbilityImage.next = prevAbility
 				AbilityImage.AddClass("AbilityImage")
 				AbilityImage.abilityname=skill[m].name
-				
+
 				  var research = CustomNetTables.GetTableValue("upgrades",skill[m].name)
 				  var towername
 				 if (research){ towername  = research["abilitylevel"].lvl}
-				 	
+
 
 				if(i>0&&i!=towername)
-				{	
+				{
 
 					AbilityImage.AddClass("AbilityImageDisabled")
 					if (complete[AbilityImage.id] !="finish")
 					complete[AbilityImage.id]="require"
-			
+
 				}
 				if(i==towername)
 				{
 					complete[AbilityImage.id]=""
 				}
-			
+
 				AbilityImage.SetPanelEvent('onmouseover', function(){
                  OnMouseOn(AbilityImage.abilityname,AbilityImage.id)
              	 })
-				
+
 				AbilityImage.SetPanelEvent('onmouseout', function(){
                  OnMouseOut(AbilityImage.abilityname,AbilityImage.id)
              	 })
 				AbilityImage.SetPanelEvent('onactivate', function(){
                  ResearchStart(AbilityImage.abilityname,AbilityImage.id,skill[0].Buildingname)
              	 })
-			
+
 				if (complete[AbilityImage.id]) {
 					if(complete[AbilityImage.id]=="progress")
 					{
@@ -252,7 +252,7 @@ function InitialContainer(skill,ColumnContainer,ColumnNumber)
 }
 
 function OnMouseOn(abilName,Pname){
-	
+
 	var Ability = $("#"+Pname)
     var tooltip_name = abilName
     if (Ability.BHasClass("DisabledAbility"))
@@ -260,7 +260,7 @@ function OnMouseOn(abilName,Pname){
     $.DispatchEvent( "DOTAShowAbilityTooltip", Ability, tooltip_name);
   //ProgressBarinc();
 //$.Msg(Ability.id)
-	
+
 }
 
 
@@ -272,7 +272,7 @@ function OnMouseOut(abilName,Pname){
 	$.DispatchEvent( "DOTAHideAbilityTooltip", Ability);
 }
 function ProgressBarinc()
-{	
+{
 	if(progressBarCancel)
 	{
 		return
@@ -286,7 +286,7 @@ function ProgressBarinc()
 	}
 	else
 	{
-		
+
 		$("#DisplayResearch").SetHasClass("Hidden",true)
 		$("#"+$("#ResearchBar").aid).SetHasClass("ResearchComplete",true)
 		$("#"+$("#ResearchBar").aid).SetHasClass("ResearchinProgress",false)
@@ -317,7 +317,7 @@ function ResearchStop ()
 			return
 }
 function ResearchStart(ResearchName,id,Buildingname)
-{		
+{
 		if(id==prevResearch&&complete[id]=="progress")
 		{
 			$("#"+id).SetHasClass("ResearchinProgress",false)
@@ -335,15 +335,15 @@ function ResearchStart(ResearchName,id,Buildingname)
 				Buildingname:Buildingname
 			}
 			GameEvents.SendCustomGameEventToServer("research_command_cancel",data );
-		
+
 			return
 		}
-		
+
 		if(complete[id]=="finish"||complete[id]=="progress"||complete[prevResearch]=="progress"||complete[id]=="require")
 		{
-			
+
 			return
-		}	
+		}
 
 			var Eindex = Players.GetPlayerHeroEntityIndex( LocalPlayerID );
 			var data=
@@ -367,13 +367,13 @@ function ResearchStart(ResearchName,id,Buildingname)
 					break;
 				}
 			}
-			
+
 			$("#ResearchBar").aid = id
 			$("#ResearchBar").resname = ResearchName
 			$("#"+id).SetHasClass("ResearchinProgress",true)
 			complete[id]="progress"
 			prevResearch=id
-			ProgressBarinc();	
+			ProgressBarinc();
 }
 
 function CreateTimer(time,name)
@@ -381,7 +381,7 @@ function CreateTimer(time,name)
 time=time+Game.Time()
 timers[timers.length]={time:time,function:name}
 }
-function update() 
+function update()
 {
 	var CurrentTime = Game.Time()
 	for(var i =0 ; i<timers.length;i++)
@@ -398,11 +398,11 @@ function update()
 			{
 				timers[i].time = CurrentTime + callback
 			}
-			
+
 		}
 	}
-  $.Schedule(0.01, update);
-} 
+  $.Schedule(0.03, update);
+}
 
 (function(){
 	update()

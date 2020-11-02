@@ -79,7 +79,7 @@ function StartBuildingHelper( params )
 
         requires = GetRequiredGridType(entindex)
         distance_to_gold_mine = HasGoldMineDistanceRestriction(entindex)
-        
+
         // If we chose to not recolor the ghost model, set it white
         var ghost_color = [0, 255, 0]
         if (!recolor_ghost)
@@ -138,13 +138,13 @@ function StartBuildingHelper( params )
             Particles.SetParticleControl(propParticle, 3, [model_alpha,0,0])
             Particles.SetParticleControl(propParticle, 4, [propScale,0,0])
         }
-            
+
         rangeOverlayActive = false;
         overlayParticles = [];
     }
 
     if (state == 'active')
-    {   
+    {
         $.Schedule(frame_rate, StartBuildingHelper);
 
         // Get all the visible entities
@@ -165,7 +165,7 @@ function StartBuildingHelper( params )
             if (!Entities.IsAlive(entities[i]) || Entities.IsOutOfGame(entities[i]) || !HasModifier(entities[i], "modifier_building")) continue
             var entPos = Entities.GetAbsOrigin( entities[i] )
             var squares = GetConstructionSize(entities[i])
-            
+
             if (squares > 0)
             {
                 // Block squares centered on the origin
@@ -201,7 +201,7 @@ function StartBuildingHelper( params )
                         //$.Msg("Setting ",specialGrid[gridType].Radius," grid radius with ",gridType.toUpperCase()," [",GRID_TYPES[gridType.toUpperCase()],"]")
                         BlockGridInRadius(entPos, Number(specialGrid[gridType].Radius), GRID_TYPES[gridType.toUpperCase()])
                     }
-                }              
+                }
             }
         }
 
@@ -220,14 +220,14 @@ function StartBuildingHelper( params )
                     var treePos = Entities.GetAbsOrigin(tree_entities[i])
                     // Block the grid if the tree isn't chopped
                     if (cutTrees[treePos] === undefined)
-                        BlockGridSquares(treePos, 2, "TREE")                    
+                        BlockGridSquares(treePos, 2, "TREE")
                 }
             }
         }
 
         var mPos = GameUI.GetCursorPosition();
         var GamePos = Game.ScreenXYToWorld(mPos[0], mPos[1]);
-        if ( GamePos !== null ) 
+        if ( GamePos !== null )
         {
             SnapToGrid(GamePos, size)
 
@@ -255,8 +255,8 @@ function StartBuildingHelper( params )
                         return
 
                     var gridParticle = gridParticles[part]
-                    Particles.SetParticleControl(gridParticle, 0, pos)     
-                    part++; 
+                    Particles.SetParticleControl(gridParticle, 0, pos)
+                    part++;
 
                     // Grid color turns red when over invalid position
                     color = [0,255,0]
@@ -266,7 +266,7 @@ function StartBuildingHelper( params )
                         invalid = true
                     }
 
-                    Particles.SetParticleControl(gridParticle, 2, color)   
+                    Particles.SetParticleControl(gridParticle, 2, color)
                 }
             }
 
@@ -305,11 +305,11 @@ function StartBuildingHelper( params )
 
                         color = [255,255,255] //White on empty positions
                         var overlayParticle = overlayParticles[part2]
-                        Particles.SetParticleControl(overlayParticle, 0, pos2)     
+                        Particles.SetParticleControl(overlayParticle, 0, pos2)
                         part2++;
 
                         if (IsBlocked(pos2) || TooCloseToGoldmine(pos2))
-                            color = [255,0,0]                        
+                            color = [255,0,0]
 
                         Particles.SetParticleControl(overlayParticle, 2, color)
                     }
@@ -349,7 +349,7 @@ function StartBuildingHelper( params )
                     Particles.SetParticleControl(rangeOverlay, 2, [255,255,255])
                     Particles.SetParticleControl(rangeOverlay, 3, [range_overlay_alpha,0,0])
                     rangeOverlayActive = true
-                }              
+                }
             }
 
             if (rangeOverlay !== undefined)
@@ -374,12 +374,12 @@ function StartBuildingHelper( params )
             }
         }
 
-     
+
         if ( (!GameUI.IsShiftDown() &&  GameUI.IsShiftDown()) || !Entities.IsAlive( builderIndex ) )
         {
-            EndBuildingHelper();  
+            EndBuildingHelper();
         }
-       
+
     }
 }
 
@@ -417,28 +417,28 @@ function SendBuildCommand( params )
     }
 
     pressedShift = GameUI.IsShiftDown();
-    var mainSelected = Players.GetLocalPlayerPortraitUnit(); 
+    var mainSelected = Players.GetLocalPlayerPortraitUnit();
 
     var mPos = GameUI.GetCursorPosition();
     var GamePos = Game.ScreenXYToWorld(mPos[0], mPos[1]);
 
     GameEvents.SendCustomGameEventToServer( "building_helper_build_command", { "builder": mainSelected, "X" : GamePos[0], "Y" : GamePos[1], "Z" : GamePos[2] , "Queue" : pressedShift } );
- 
+
     // Cancel unless the player is holding shift
     if (!GameUI.IsShiftDown())
     {
         EndBuildingHelper(params);
-   
+
         return true;
     }
- 
+
     return true;
 }
 
 function SendCancelCommand( params )
 {
     EndBuildingHelper();
-    
+
     GameEvents.SendCustomGameEventToServer( "building_helper_cancel_command", {} );
 }
 
@@ -464,7 +464,7 @@ function RegisterGNV(msg){
     var arr = [];
 
      var fullGnv = msg.gnv1 + msg.gnv2 + msg.gnv3
-     
+
     // Thanks to BMD for this method
     for (var i=0; i<fullGnv.length; i++){
         var code = fullGnv.charCodeAt(i)-32;
@@ -516,7 +516,7 @@ function RequestGNV () {
     GameEvents.SendCustomGameEventToServer( "gnv_request", {} )
 }
 
-(function () {    
+(function () {
     RequestGNV()
 
     GameEvents.Subscribe( "building_helper_enable", StartBuildingHelper);
@@ -529,12 +529,12 @@ function RequestGNV () {
 
 function SnapToGrid(vec, size) {
     // Buildings are centered differently when the size is odd.
-    if (size % 2 != 0) 
+    if (size % 2 != 0)
     {
         vec[0] = SnapToGrid32(vec[0])
         vec[1] = SnapToGrid32(vec[1])
-    } 
-    else 
+    }
+    else
     {
         vec[0] = SnapToGrid64(vec[0])
         vec[1] = SnapToGrid64(vec[1])
@@ -695,7 +695,7 @@ function GetCustomGrid(entIndex) {
         for (var type in gridType)
             if (HasModifier(entIndex, "modifier_grid_"+type.toLowerCase()))
                 return table.grid
-    }    
+    }
 }
 
 function HasGoldMineDistanceRestriction(entIndex) {

@@ -25,7 +25,7 @@ function VampireMessage(data) {
     CreateTimer(data.delay, function() {
         $("#dlgVampire").style.visibility = "collapse"
     })
-    
+
 }
 
 function SystemMessage(data) {
@@ -72,5 +72,5 @@ function update() {
 
         }
     }
-    $.Schedule(0.01, update);
+    $.Schedule(0.03, update);
 }
