@@ -1,21 +1,21 @@
 /* Если вкратце, то здесь описывают свойства элементов из XML файла
-	.Класс  {
-		свойства
-	}  
-	#ИД {
-		свойства
-	}  
+    .Класс  {
+        свойства
+    }
+    #ИД {
+        свойства
+    }
  */
 .Hidden{
-	visibility: collapse;
-	opacity: 0;
+    visibility: collapse;
+    opacity: 0;
 }
 
 .Customshop
 {
     width: 100%;
     height: 100%;
-   
+
      margin-bottom: 60px;
     // background-color: #000000;
 }
@@ -97,19 +97,19 @@
     background-image: url("s2r://panorama/images/hud/reborn/bg_mainshop_psd.vtex");
     background-repeat: no-repeat;
     background-size:  cover;
-  
+
 }
 #ShopTab
 {
     flow-children: right;
     horizontal-align: left;
     border: 1px solid#5b687277;
-    border-radius: 3px; 
+    border-radius: 3px;
     width: 100%;
 }
 #BasicItemsTab,#SummonsTab,#GuideTab
 {
-    
+
     width: 33%;
     padding-right: 5px;
     padding-top: 5px;
@@ -121,11 +121,11 @@
 
 #BasicItemsTab:selected,#SummonsTab:selected,#GuideTab:selected
 {
-    
+
     background-color:  #5b6872;
 }
 
-#BasicItemsTab Label,#SummonsTab Label,#GuideTab Label 
+#BasicItemsTab Label,#SummonsTab Label,#GuideTab Label
 {
      color: white;
      font-weight: bold;
@@ -152,8 +152,8 @@
     height:70px;
 
    border: 1px solid #aa7d09;
-    border-radius: 50%; 
-   
+    border-radius: 50%;
+
 }
 .itemStock
 {
@@ -162,8 +162,8 @@
 
     width: 70px;
     height:70px;
-    border-radius: 50%; 
-   
+    border-radius: 50%;
+
 }
 .item:hover
 {
@@ -175,7 +175,7 @@
     width: 100%;
     height:96%;
     margin-top: 30px;
-  
+
 }
 .ItemHeadRow
 {
@@ -185,10 +185,10 @@
 }
 .SummItem
 {
-    
+
     flow-children:down;
     border: 3px solid#5b687277;
-    border-radius: 3px; 
+    border-radius: 3px;
     horizontal-align:left;
 }
 .OutStock
@@ -205,9 +205,9 @@
    letter-spacing: 2px;
 
     font-size: 24px;
-    vertical-align:center; 
+    vertical-align:center;
     horizontal-align:center;
-     
+
 }
 .HireBtn:hover
 {
@@ -217,7 +217,7 @@
 {
     width:130px;
     height:25px;
-    vertical-align:bottom; 
+    vertical-align:bottom;
     horizontal-align:center;
    // background-image: url("s2r://panorama/images/hud/reborn/shop_launcher_button_hover_psd.vtex");
     background-color: gradient( linear, 0% 0%, 0% 100%, from( #3784a6 ), to( #215373 ) );

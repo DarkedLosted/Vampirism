@@ -6,33 +6,33 @@ DOTAAbilityDetails
 
 .Container
 {
-	 width: 300px;
-	 height:180px;
+     width: 300px;
+     height:180px;
 
     flow-children: down;
     background-color: #0b1215;
 }
-#Contents 
+#Contents
 {
-	width: 300px;
-	 height:180px;
+    width: 300px;
+     height:180px;
 
     flow-children: down;
     background-color: #0b1215;
 }
 #Header
 {
-	horizontal-align:center;
-	vertical-align: center;
-	 background-image: url("s2r://panorama/images/hud/item_tooltip_active_psd.vtex");
-	 width: 100%;
+    horizontal-align:center;
+    vertical-align: center;
+     background-image: url("s2r://panorama/images/hud/item_tooltip_active_psd.vtex");
+     width: 100%;
 }
 #Name
 {
-	 font-size: 18px;
+     font-size: 18px;
     color: #e1e1e1;
     vertical-align: middle;
-	padding-left: 4px;
+    padding-left: 4px;
     letter-spacing: 0.5px;
     text-shadow: 2px 2px 0px 1.0 #00000090;
     margin-top: 6px;
@@ -42,18 +42,18 @@ DOTAAbilityDetails
 }
 #Description
 {
-	padding: 5px 10px 5px 10px;
+    padding: 5px 10px 5px 10px;
     font-size: 16px;
     color: #3d4e5b;
     font-style: italic;
-	background-color: #0b1215;
+    background-color: #0b1215;
 
 }
 #CostContainer
 {
-	flow-children:right;
-	horizontal-align:right;
-	vertical-align: bottom;
+    flow-children:right;
+    horizontal-align:right;
+    vertical-align: bottom;
 }
  #Gold
  {
@@ -65,7 +65,7 @@ font-size: 18px;
  }
   #Lumber
  {
- 	font-size: 18px;
+     font-size: 18px;
     color: green;
     text-transform: uppercase;
     font-weight: semi-bold;
@@ -73,7 +73,7 @@ font-size: 18px;
  }
   #Time
  {
- 	font-size: 18px;
+     font-size: 18px;
     color: #e1e1e1;
     text-shadow: 2px 2px 0px 1.0 #00000090;
     text-transform: uppercase;
@@ -82,67 +82,67 @@ font-size: 18px;
  }
 #GoldIcon
 {
-	width: 23px;
-	height: 23px;
-	background-image: url("s2r://panorama/images/hud/icon_gold_psd.vtex");
-	background-size: 100%;
-	margin-right: 5px;
+    width: 23px;
+    height: 23px;
+    background-image: url("s2r://panorama/images/hud/icon_gold_psd.vtex");
+    background-size: 100%;
+    margin-right: 5px;
     margin-left: 4px;
 }
 #LumberIcon
 {
-	width: 23px;
-	height: 23px;
-	background-image: url("s2r://panorama/images/custom_game/lumber_icon.png"); 
-	background-size: 100%;
-	margin-right: 5px;
+    width: 23px;
+    height: 23px;
+    background-image: url("s2r://panorama/images/custom_game/lumber_icon.png");
+    background-size: 100%;
+    margin-right: 5px;
     margin-left: 4px;
 }
 
 #TimeIcon
 {
-	width: 23px;
-	height: 23px;
-	background-image: url("s2r://panorama/images/status_icons/clock_small_psd.vtex");
-	background-size: 100%;
-	margin-right: 5px;
+    width: 23px;
+    height: 23px;
+    background-image: url("s2r://panorama/images/status_icons/clock_small_psd.vtex");
+    background-size: 100%;
+    margin-right: 5px;
     margin-left: 4px;
 }
 
 Label
 {
-	font-size: 16px;
-	font-weight: normal;
-	letter-spacing: 0px;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0px;
 }
 
 .Hidden
 {
-	visibility: collapse;
+    visibility: collapse;
 }
 
 #ItemImage
 {
-	visibility: collapse;
+    visibility: collapse;
 }
 
 .Item #ItemImage
 {
-	visibility: visible;
-	width: 66px;
-	height: 48px;
-	margin-top: 4px;
-	margin-right: 8px;
-	margin-bottom: 6px;
+    visibility: visible;
+    width: 66px;
+    height: 48px;
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-bottom: 6px;
     margin-left: 4px;
-	box-shadow: 0px 0px 4px black;
+    box-shadow: 0px 0px 4px black;
 }
 
 
 
 #HeaderLabels
 {
-	flow-children: down;
+    flow-children: down;
 }
 
 #AbilityHeader
@@ -152,9 +152,9 @@ Label
 
 #AbilitySubHeader
 {
-	width: 100%;
-	margin-top: -4px;
-	flow-children: right;
+    width: 100%;
+    margin-top: -4px;
+    flow-children: right;
 }
 
 #AbilityName
@@ -163,7 +163,7 @@ Label
     color: #e1e1e1;
     width: fill-parent-flow( 1.0 );
     vertical-align: middle;
-	padding-left: 4px;
+    padding-left: 4px;
     letter-spacing: 0.5px;
     text-shadow: 2px 2px 0px 1.0 #00000090;
     margin-top: 6px;
@@ -210,163 +210,163 @@ Label
 
 .Item #AbilityTarget
 {
-	visibility: collapse;
+    visibility: collapse;
 }
 
 #AbilityCoreDetails
 {
-	flow-children: down;
+    flow-children: down;
 }
 
 .IsItem #AbilityCoreDetails
 {
-	margin-top: 16px;
+    margin-top: 16px;
 }
 
 
 #AbilityAttributes
 {
-	margin-top: 0px;
-	margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
     margin-left: 4px;
-	font-size: 17px;
-	width: 400px;	
+    font-size: 17px;
+    width: 400px;
 }
 
 DOTAGameItemsPage #AbilityCoreDetails
 {
-	max-height: 440px;
-	padding-right: 10px;
-	overflow: squish scroll;
+    max-height: 440px;
+    padding-right: 10px;
+    overflow: squish scroll;
 }
 
 #ItemSubtitle
 {
-	visibility: collapse;
+    visibility: collapse;
 }
 
 .ShowItemSubtitle #ItemSubtitle
 {
-	visibility: visible;
-	vertical-align: center;
-	padding-left: 4px;
+    visibility: visible;
+    vertical-align: center;
+    padding-left: 4px;
 }
 
 #ItemCost
 {
-	flow-children: right;
-	visibility: collapse;
+    flow-children: right;
+    visibility: collapse;
 }
 
 .ShowItemCost #ItemCost
 {
-	visibility: visible;
+    visibility: visible;
 }
 
 #ItemCostIcon
 {
-	width: 23px;
-	height: 23px;
-	background-image: url("s2r://panorama/images/hud/icon_gold_psd.vtex");
-	background-size: 100%;
-	margin-right: 5px;
+    width: 23px;
+    height: 23px;
+    background-image: url("s2r://panorama/images/hud/icon_gold_psd.vtex");
+    background-size: 100%;
+    margin-right: 5px;
     margin-left: 4px;
 }
 #ItemCostLumberIcon
 {
-	width: 23px;
-	height: 23px;
-	background-image: url("src=file://{images}/custom_game/lumber_icon.png");
-	background-size: 100%;
-	margin-right: 5px;
+    width: 23px;
+    height: 23px;
+    background-image: url("src=file://{images}/custom_game/lumber_icon.png");
+    background-size: 100%;
+    margin-right: 5px;
     margin-left: 4px;
 }
 #BuyCostLabel
 {
-	color: #FFCC33;
-	font-size: 16px;
-	font-weight: bold;
-	margin-top: 3px;
+    color: #FFCC33;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 3px;
     text-shadow: 2px 2px 0px 1.0 #00000088;
     font-family: RadianceM;
 }
 #BuyCostLumberLabel
 {
-	color: #CCFF33;
-	font-size: 16px;
-	font-weight: bold;
-	margin-top: 3px;
+    color: #CCFF33;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 3px;
     text-shadow: 2px 2px 0px 1.0 #00000088;
     font-family: RadianceM;
 }
 #BuyCostDeficit
 {
-	visibility: collapse;
-	color: #e03e2e;
-	font-size: 16px;
-	font-weight: bold;
-	margin-top: 3px;
-	margin-left: 4px;
+    visibility: collapse;
+    color: #e03e2e;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-left: 4px;
     text-shadow: 2px 2px 0px 1.0 #00000088;
     font-family: RadianceM;
 }
 
 .NotEnoughGold #BuyCostDeficit
 {
-	visibility: visible;
+    visibility: visible;
 }
 
 
 
 #RestockTime
 {
-	font-size: 16px;
-	color: #e03e2e;
-	margin-top: 3px;
-	margin-left: 6px;
+    font-size: 16px;
+    color: #e03e2e;
+    margin-top: 3px;
+    margin-left: 6px;
     text-shadow: 2px 2px 0px 1.0 #00000090;
 }
 
 #OutOfStockFooter
 {
-	font-size: 17px;
-	color: #e03e2e;
+    font-size: 17px;
+    color: #e03e2e;
     visibility: collapse;
 }
 
 #RestockTime,
 #OutOfStockFooter
 {
-	visibility: collapse;
+    visibility: collapse;
 }
 
 .OutOfStock #RestockTime,
 .OutOfStock #OutOfStockFooter
 {
-	visibility: visible;
+    visibility: visible;
 }
 
 #StockAmount
 {
-	font-size: 16px;
+    font-size: 16px;
     color: #e1e1e1;
-	horizontal-align: right;
-	visibility: collapse;
-	margin-top: 3px;
-	margin-left: 6px;
+    horizontal-align: right;
+    visibility: collapse;
+    margin-top: 3px;
+    margin-left: 6px;
     text-shadow: 2px 2px 0px 1.0 #00000090;
 }
 
 .ShowStockAmount #StockAmount
 {
-	visibility: visible;
+    visibility: visible;
 }
 
 #NotEnoughGoldLabel
 {
-	font-size: 17px;
-	color: red;
-	visibility: collapse;
+    font-size: 17px;
+    color: red;
+    visibility: collapse;
 }
 
 .NotEnoughGold #NotEnoughGoldLabel
@@ -376,97 +376,97 @@ DOTAGameItemsPage #AbilityCoreDetails
 
 #CostToComplete
 {
-	color: #FFCC33;
-	font-size: 16px;
-	font-weight: bold;
-	visibility: collapse;
+    color: #FFCC33;
+    font-size: 16px;
+    font-weight: bold;
+    visibility: collapse;
 }
 
 .ShowCostToComplete #CostToComplete
 {
-	visibility: visible;
+    visibility: visible;
 }
 
 #OwnedBy
 {
-	font-size: 15px;
-	font-weight: bold;
-	visibility: collapse;
+    font-size: 15px;
+    font-weight: bold;
+    visibility: collapse;
 }
 
 .ShowOwnedBy #OwnedBy
 {
-	visibility: visible;
+    visibility: visible;
 }
 
 #SellPriceLabel
 {
-	visibility: collapse;
-	color: #D58A17;
-	font-size: 15px;
-	font-weight: bold;
+    visibility: collapse;
+    color: #D58A17;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .ShowSellPrice #SellPriceLabel
 {
-	visibility: visible;
+    visibility: visible;
 }
 
 #SellPriceTimeLabel
 {
-	visibility: collapse;
-	color: #D58A17;
-	font-size: 15px;
-	font-weight: bold;
+    visibility: collapse;
+    color: #D58A17;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .ShowSellPriceTime #SellPriceTimeLabel
 {
-	visibility: visible;
+    visibility: visible;
 }
 
 #DisassembleLabel
 {
-	visibility: collapse;
-	color: #D58A17;
-	font-size: 15px;
-	font-weight: bold;
+    visibility: collapse;
+    color: #D58A17;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .ShowDisassemble #DisassembleLabel
 {
-	visibility: visible;
+    visibility: visible;
 }
 
 #DisassembleTimeLabel
 {
-	visibility: collapse;
-	color: #D58A17;
-	font-size: 15px;
-	font-weight: bold;
+    visibility: collapse;
+    color: #D58A17;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .ShowDisassembleTime #DisassembleTimeLabel
 {
-	visibility: visible;
+    visibility: visible;
 }
 
 #AbilityDescriptionContainer
 {
-	flow-children: down;
-	width: 340px;
+    flow-children: down;
+    width: 340px;
 }
 
 #AbilityDescriptionContainer Label
 {
     color: #e5e5e5;
     font-size: 16px;
-	width: 324px;
-	padding-left: 8px;
-	padding-right: 8px;
+    width: 324px;
+    padding-left: 8px;
+    padding-right: 8px;
     padding-top: 6px;
     padding-bottom: 8px;
-	margin-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 #AbilityDescriptionContainer Label.Header
@@ -488,7 +488,7 @@ DOTAGameItemsPage #AbilityCoreDetails
 
 .IsItem #AbilityDescriptionContainer .GameplayValues
 {
-	color: #474a61;
+    color: #474a61;
 }
 
 .IsItem #AbilityDescriptionContainer .GameplayValues.GameplayVariable
@@ -518,8 +518,8 @@ DOTAGameItemsPage #AbilityCoreDetails
 .IsItem.Consumable #AbilityDescriptionContainer Label.Active
 {
     background-color: gradient( linear, 0% 0%, 0% 100%, from( #15221f ), to( #1a2926 ) );
-	color: #7b8a72;
-	text-shadow: 2px 2px 0px 1.0 #00000090;
+    color: #7b8a72;
+    text-shadow: 2px 2px 0px 1.0 #00000090;
 }
 
 .IsItem.Consumable #AbilityDescriptionContainer Label.Active.Header
@@ -540,29 +540,29 @@ DOTAGameItemsPage #AbilityCoreDetails
 
 #AbilityAttributes
 {
-	color: #748090;
+    color: #748090;
     text-shadow: 2px 2px 0px 1.0 #00000088;
 }
 
 Label .GameplayValues
 {
-	color: #4d5560;
+    color: #4d5560;
 }
 
 Label .GameplayValues.GameplayVariable
 {
-	color: #e1e1e1;
+    color: #e1e1e1;
 }
 
 Label .ScepterUpgrade
 {
-	color: #70EA72;
+    color: #70EA72;
 }
 
 h1
 {
-	font-size: 16px;
-	font-weight: semi-bold;
+    font-size: 16px;
+    font-weight: semi-bold;
     color: #91a0b4;
 }
 
@@ -581,40 +581,40 @@ h1
 
 #ItemScepterDescription
 {
-	margin-top: 13px;
-	background-color: gradient( linear, 0% 0%, 0% 100%, from( #1c262f ), to( #1b262f ) );
+    margin-top: 13px;
+    background-color: gradient( linear, 0% 0%, 0% 100%, from( #1c262f ), to( #1b262f ) );
     color: #91a0b4;
 
 }
 
 .Scepter
 {
-	color: #748090;
+    color: #748090;
 }
 
 #AbilityExtraDescription
 {
-	visibility: collapse;
+    visibility: collapse;
 }
 
 .ShowExtraDescription #AbilityExtraDescription:not(.Hidden)
 {
-	visibility: visible;
+    visibility: visible;
 }
 
 #AbilityDescriptionOuterContainer
 {
-	flow-children: down;
+    flow-children: down;
 }
 
 .IsItem #AbilityDescriptionOuterContainer
 {
-	flow-children: none;
+    flow-children: none;
 }
 
 #CurrentItemCosts
 {
-	flow-children: left;
+    flow-children: left;
     width: 100%;
     margin-top: 4px;
     margin-bottom: 5px;
@@ -624,15 +624,15 @@ h1
 
 .IsItem #CurrentItemCosts
 {
-	visibility: visible;
-	flow-children: left;
+    visibility: visible;
+    flow-children: left;
     z-index: 1;
     margin-right: 8px;
 }
 
 #CurrentItemCosts Label
 {
-	color: #e1e1e1;
+    color: #e1e1e1;
     font-size: 16px;
     background-position: 0% 50%;
     background-repeat: no-repeat;
@@ -645,42 +645,42 @@ h1
 
 #CurrentItemCosts .Cooldown, #CurrentItemCosts .ManaCost
 {
-	visibility: collapse;
+    visibility: collapse;
 }
 
 .HasCooldown #CurrentItemCosts .Cooldown
 {
-	visibility: visible;
+    visibility: visible;
 }
 
 .HasManaCost #CurrentItemCosts .ManaCost
 {
-	visibility: visible;
+    visibility: visible;
 }
 
 .IsItem #AbilityCosts
 {
-	visibility: collapse;
+    visibility: collapse;
 }
 
 .IsItem #CurrentAbilityCosts
 {
-	visibility: collapse;
+    visibility: collapse;
 }
 
 .Cooldown
 {
     background-image: url("s2r://panorama/images/status_icons/ability_cooldown_icon_psd.vtex");
-	text-overflow: shrink;
-	margin-left: 5px;
-	margin-right: 2px;
+    text-overflow: shrink;
+    margin-left: 5px;
+    margin-right: 2px;
 }
 
 .ManaCost
 {
-	margin-left: 5px;
-	margin-right: 2px;
-	text-overflow: shrink;
+    margin-left: 5px;
+    margin-right: 2px;
+    text-overflow: shrink;
     background-image: url("s2r://panorama/images/status_icons/ability_manacost_icon_psd.vtex");
 }
 
@@ -690,8 +690,8 @@ h1
     font-size: 14px;
     color: #3d4e5b;
     font-style: italic;
-	background-color: #0b1215;
-	width: 100%; 
+    background-color: #0b1215;
+    width: 100%;
 }
 
 #AbilityUpgradeLevel
@@ -745,7 +745,7 @@ h1
 
 #ItemCost
 {
-	vertical-align: center;
+    vertical-align: center;
 }
 
 #AbilityName.Consumable
@@ -759,7 +759,7 @@ h1
 
 #AbilityName..Recipe
 {
-	wash-color: #BBBBBB;
+    wash-color: #BBBBBB;
 }
 
 
@@ -775,62 +775,62 @@ h1
 
 .ItemAvailabilityRow
 {
-	flow-children: right;
-	visibility: collapse;
+    flow-children: right;
+    visibility: collapse;
 }
 
 .ItemAvailabilityIcon
 {
-	width: 30px;
-	height: 30px;
+    width: 30px;
+    height: 30px;
 
-	wash-color: #748090;
+    wash-color: #748090;
     margin-right: -2px;
 
     background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .ItemAvailabilityRow > Label
 {
-	vertical-align: middle;
-	margin-top: 4px;
-	color: #ccc;
-	margin-left: 3px;
+    vertical-align: middle;
+    margin-top: 4px;
+    color: #ccc;
+    margin-left: 3px;
 }
 
 .AvailableAtMainShop:not(.InventoryItem) #ItemAvailibilityMainShop,
 .AvailableAtSideShop:not(.InventoryItem) #ItemAvailibilitySideShop,
 .AvailableAtSecretShop:not(.InventoryItem) #ItemAvailibilitySecretShop
 {
-	visibility: visible;
+    visibility: visible;
 }
 
 .MainShopIcon
 {
-	background-image: url("s2r://panorama/images/control_icons/shop_icon_main_psd.vtex");
-	width: 24px;
-	height: 24px;
-	//background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: 120%;
+    background-image: url("s2r://panorama/images/control_icons/shop_icon_main_psd.vtex");
+    width: 24px;
+    height: 24px;
+    //background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 120%;
 }
 .SecretShopIcon
 {
-	background-image: url("s2r://panorama/images/control_icons/shop_icon_secret_psd.vtex");
-	width: 24px;
-	height: 24px;
-	background-repeat: no-repeat;
-	background-size: 120%;
+    background-image: url("s2r://panorama/images/control_icons/shop_icon_secret_psd.vtex");
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: 120%;
 }
 .SideShopIcon
 {
-	background-image: url("s2r://panorama/images/control_icons/shop_icon_side_psd.vtex");
-	width: 24px;
-	height: 24px;
-	background-repeat: no-repeat;
-	background-size: 130%;
+    background-image: url("s2r://panorama/images/control_icons/shop_icon_side_psd.vtex");
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: 130%;
 }
 
 
@@ -846,7 +846,7 @@ h1
 
 #CurrentAbilityCosts Label
 {
-	color: #FCB040;
+    color: #FCB040;
     font-size: 16px;
     background-position: 0% 50%;
     background-repeat: no-repeat;
@@ -857,7 +857,7 @@ h1
 #CurrentAbilityCosts #CurrentAbilityCooldown
 {
     background-image: url("s2r://panorama/images/status_icons/ability_cooldown_icon_psd.vtex");
-	text-overflow: shrink;
+    text-overflow: shrink;
 }
 
 #CurrentAbilityCosts #CurrentAbilityManaCost
@@ -867,12 +867,12 @@ h1
 
 #AbilityCosts
 {
-	flow-children: right;
+    flow-children: right;
 }
 
 #AbilityCosts Label
 {
-	color: #7D7D7D;
+    color: #7D7D7D;
     font-size: 16px;
     background-position: 0% 50%;
     background-repeat: no-repeat;

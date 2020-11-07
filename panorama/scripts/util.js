@@ -417,16 +417,16 @@ GameUI.SetupAvatarTooltip = function (avatar, root, steamID64) {
         avatar.tooltip.Hide()
     })
 }
-/*	<Panel id="PlayerContainer" hittest="false">
-												<DOTAAvatarImage id="AvatarImageProfile" steamid="" class="DAI" />
-												<DOTAUserName id="UserNameProfile" steamid="" class="DUI" />
-												<Label class="PlayerColor" text="    " id="PlayerColor0" />
-												<Image src="file://{images}/custom_game/gold.tga" class="imggold" />
-												<TextEntry id="goldamount" class="TextBoxg" maxchars="5" placeholder="" oninputsubmit="OnSubmitted()" />
-												<Image src="file://{images}/custom_game/lumber_icon.png" class="imglumber" />
-												<TextEntry id="lumberamount" class="TextBoxl" ="6" placeholder="" oninputsubmit="OnSubmitted()" />
+/*    <Panel id="PlayerContainer" hittest="false">
+                                                <DOTAAvatarImage id="AvatarImageProfile" steamid="" class="DAI" />
+                                                <DOTAUserName id="UserNameProfile" steamid="" class="DUI" />
+                                                <Label class="PlayerColor" text="    " id="PlayerColor0" />
+                                                <Image src="file://{images}/custom_game/gold.tga" class="imggold" />
+                                                <TextEntry id="goldamount" class="TextBoxg" maxchars="5" placeholder="" oninputsubmit="OnSubmitted()" />
+                                                <Image src="file://{images}/custom_game/lumber_icon.png" class="imglumber" />
+                                                <TextEntry id="lumberamount" class="TextBoxl" ="6" placeholder="" oninputsubmit="OnSubmitted()" />
 
-											</Panel>
+                                            </Panel>
 */
 // Returns the SteamID 64bit of a player by ID
 GameUI.GetPlayerSteamID = function (playerID) {

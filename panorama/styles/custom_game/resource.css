@@ -17,12 +17,12 @@
     horizontal-align: center;
     vertical-align: top;
     margin-left: 578px;
-    border:1px solid #3b404777; 
+    border:1px solid #3b404777;
    /* background-color: gradient( linear,0% 0%, 100% 0%, from( #070000 ),color-stop( 0.3, #4c0001 ), to( #070000 ) ); */
 }
 
-.Hidden 
-{ 
+.Hidden
+{
     visibility: collapse;
     opacity: 0;
 }
@@ -42,10 +42,10 @@
 
 #LumberText
 {
-	color: green;
+    color: green;
     font-size: 18px;
     font-family: Radiance;
-  	font-weight: bold;
+      font-weight: bold;
     text-align: center;
     text-shadow: 0px 0px 3px 3.0 #000000;
      horizontal-align: left;
@@ -55,12 +55,12 @@
 }
 
 
-#LumberIcon 
-{	
-	 width:25%; 
+#LumberIcon
+{
+     width:25%;
     height:100%;
-/*	//background-image: url("s2r://panorama/images/custom_game/lumber_icon.png"); 
-	//background-size: 100% 100%;*/
+/*    //background-image: url("s2r://panorama/images/custom_game/lumber_icon.png");
+    //background-size: 100% 100%;*/
       horizontal-align: left;
     vertical-align: center;
 }
@@ -72,7 +72,7 @@
      flow-children:right;
     horizontal-align: center;
     vertical-align: center;
-    
+
     /*//margin-top: 28px;*/
     margin-left: 75px;
 }
@@ -93,11 +93,11 @@
 }
 
 
-#GoldIcon 
-{   
-     width:25%; 
+#GoldIcon
+{
+     width:25%;
     height:100%;
-  /* // background-image: url("s2r://panorama/images/custom_game/lumber_icon.png"); 
+  /* // background-image: url("s2r://panorama/images/custom_game/lumber_icon.png");
     //background-size: 100% 100%;*/
       horizontal-align: left;
     vertical-align: center;
@@ -129,7 +129,7 @@
     font-family: Radiance;
   /*  //margin-left: 75px;
     //margin-top: 4px;*/
-     
+
 }
 #FoodText
 {
@@ -139,7 +139,7 @@
     font-weight: bold;
     text-align: center;
     text-shadow: 0px 0px 3px 3.0 #000000;
-   
+
     horizontal-align: right;
     vertical-align: center;
     font-family: Radiance;
@@ -148,10 +148,10 @@
 }
 
 
-#FoodIcon 
-{   
-    width:25%; 
-    height:100%; 
+#FoodIcon
+{
+    width:25%;
+    height:100%;
      horizontal-align: left;
     vertical-align: center;
     background-size: 100% 100%;

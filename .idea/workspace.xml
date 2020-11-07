@@ -1,7 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb36c69f-411e-4a0b-bed6-be13a1b2112a" name="Default" comment="" />
+    <list default="true" id="fb36c69f-411e-4a0b-bed6-be13a1b2112a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vampirism.iml" afterPath="$PROJECT_DIR$/.idea/vampirism.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/addon_english_utf8.txt" afterPath="$PROJECT_DIR$/addon_english_utf8.txt" />
+      <change beforePath="$PROJECT_DIR$/materials/grid_overlay.vtex" afterPath="$PROJECT_DIR$/materials/grid_overlay.vtex" />
+      <change beforePath="$PROJECT_DIR$/materials/house/6mm_strmwnd_wall_04.vmat" afterPath="$PROJECT_DIR$/materials/house/6mm_strmwnd_wall_04.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/amethyst_wall.vmat" afterPath="$PROJECT_DIR$/materials/house/amethyst_wall.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/carnelian_wall.vmat" afterPath="$PROJECT_DIR$/materials/house/carnelian_wall.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/crysoprase_wall.vmat" afterPath="$PROJECT_DIR$/materials/house/crysoprase_wall.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/diamond_wall.vmat" afterPath="$PROJECT_DIR$/materials/house/diamond_wall.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/emerald_wall.vmat" afterPath="$PROJECT_DIR$/materials/house/emerald_wall.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/garnet_wall.vmat" afterPath="$PROJECT_DIR$/materials/house/garnet_wall.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/house.vmat" afterPath="$PROJECT_DIR$/materials/house/house.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/house1_2nr_hu_walls.vmat" afterPath="$PROJECT_DIR$/materials/house/house1_2nr_hu_walls.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/house1_4nr_hu_shutters.vmat" afterPath="$PROJECT_DIR$/materials/house/house1_4nr_hu_shutters.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/house_1.vmat" afterPath="$PROJECT_DIR$/materials/house/house_1.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/hram_doortrim.vmat" afterPath="$PROJECT_DIR$/materials/house/hram_doortrim.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/hram_floor_1.vmat" afterPath="$PROJECT_DIR$/materials/house/hram_floor_1.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/hram_floor_2.vmat" afterPath="$PROJECT_DIR$/materials/house/hram_floor_2.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/hram_pillar.vmat" afterPath="$PROJECT_DIR$/materials/house/hram_pillar.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/hram_pillar_1.vmat" afterPath="$PROJECT_DIR$/materials/house/hram_pillar_1.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/hram_plane.vmat" afterPath="$PROJECT_DIR$/materials/house/hram_plane.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/hram_red_roof.vmat" afterPath="$PROJECT_DIR$/materials/house/hram_red_roof.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/hram_roof_1.vmat" afterPath="$PROJECT_DIR$/materials/house/hram_roof_1.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/hram_trims_1.vmat" afterPath="$PROJECT_DIR$/materials/house/hram_trims_1.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/hram_trims_2.vmat" afterPath="$PROJECT_DIR$/materials/house/hram_trims_2.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/hram_trims_3.vmat" afterPath="$PROJECT_DIR$/materials/house/hram_trims_3.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/hram_trims_4.vmat" afterPath="$PROJECT_DIR$/materials/house/hram_trims_4.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/hram_wall_1.vmat" afterPath="$PROJECT_DIR$/materials/house/hram_wall_1.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/hram_wall_2.vmat" afterPath="$PROJECT_DIR$/materials/house/hram_wall_2.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/hram_wall_window.vmat" afterPath="$PROJECT_DIR$/materials/house/hram_wall_window.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/onyx_wall.vmat" afterPath="$PROJECT_DIR$/materials/house/onyx_wall.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/research_center.vmat" afterPath="$PROJECT_DIR$/materials/house/research_center.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/sapphire_wall.vmat" afterPath="$PROJECT_DIR$/materials/house/sapphire_wall.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/topaz_wall.vmat" afterPath="$PROJECT_DIR$/materials/house/topaz_wall.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/town_hall_human_rockwallmid.vmat" afterPath="$PROJECT_DIR$/materials/house/town_hall_human_rockwallmid.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/town_hall_lvl2_mm_duskwood_brick_01.vmat" afterPath="$PROJECT_DIR$/materials/house/town_hall_lvl2_mm_duskwood_brick_01.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/town_hall_lvl2_mm_mossygrass_01.vmat" afterPath="$PROJECT_DIR$/materials/house/town_hall_lvl2_mm_mossygrass_01.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/town_hall_lvl2_mm_rr_wnd_ext__01.vmat" afterPath="$PROJECT_DIR$/materials/house/town_hall_lvl2_mm_rr_wnd_ext__01.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/town_hall_lvl2_mm_westfall_wall_03.vmat" afterPath="$PROJECT_DIR$/materials/house/town_hall_lvl2_mm_westfall_wall_03.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/town_hall_lvl2_nr_hu_woodtrim02.vmat" afterPath="$PROJECT_DIR$/materials/house/town_hall_lvl2_nr_hu_woodtrim02.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/town_hall_mm_duskwood_woodtrim_01.vmat" afterPath="$PROJECT_DIR$/materials/house/town_hall_mm_duskwood_woodtrim_01.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/town_hall_mm_inn_wood_floor_01.vmat" afterPath="$PROJECT_DIR$/materials/house/town_hall_mm_inn_wood_floor_01.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/town_hall_mm_minerail_01.vmat" afterPath="$PROJECT_DIR$/materials/house/town_hall_mm_minerail_01.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/town_hall_mm_strmwnd_int_trim_01.vmat" afterPath="$PROJECT_DIR$/materials/house/town_hall_mm_strmwnd_int_trim_01.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/town_hall_mm_wf_metal_plating_01.vmat" afterPath="$PROJECT_DIR$/materials/house/town_hall_mm_wf_metal_plating_01.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/town_hall_nr_hu_bluetrim.vmat" afterPath="$PROJECT_DIR$/materials/house/town_hall_nr_hu_bluetrim.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/town_hall_nr_hu_roofunderside.vmat" afterPath="$PROJECT_DIR$/materials/house/town_hall_nr_hu_roofunderside.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/town_hall_nr_hu_thatch.vmat" afterPath="$PROJECT_DIR$/materials/house/town_hall_nr_hu_thatch.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/town_hall_nr_hu_walls2.vmat" afterPath="$PROJECT_DIR$/materials/house/town_hall_nr_hu_walls2.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/town_hall_nr_hu_window.vmat" afterPath="$PROJECT_DIR$/materials/house/town_hall_nr_hu_window.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/house/town_hall_woodtrim.vmat" afterPath="$PROJECT_DIR$/materials/house/town_hall_woodtrim.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/mine/mine.vmat" afterPath="$PROJECT_DIR$/materials/mine/mine.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/models/mine/mine.vmat" afterPath="$PROJECT_DIR$/materials/models/mine/mine.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/overviews/samplerts.txt" afterPath="$PROJECT_DIR$/materials/overviews/samplerts.txt" />
+      <change beforePath="$PROJECT_DIR$/materials/overviews/samplerts.vmat" afterPath="$PROJECT_DIR$/materials/overviews/samplerts.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/overviews/vampirism.txt" afterPath="$PROJECT_DIR$/materials/overviews/vampirism.txt" />
+      <change beforePath="$PROJECT_DIR$/materials/overviews/vampirism.vmat" afterPath="$PROJECT_DIR$/materials/overviews/vampirism.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/overviews/vampirism_1.txt" afterPath="$PROJECT_DIR$/materials/overviews/vampirism_1.txt" />
+      <change beforePath="$PROJECT_DIR$/materials/overviews/vampirism_1.vmat" afterPath="$PROJECT_DIR$/materials/overviews/vampirism_1.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/overviews/vampirismf.txt" afterPath="$PROJECT_DIR$/materials/overviews/vampirismf.txt" />
+      <change beforePath="$PROJECT_DIR$/materials/overviews/vampirismf.vmat" afterPath="$PROJECT_DIR$/materials/overviews/vampirismf.vmat" />
+      <change beforePath="$PROJECT_DIR$/materials/particle/basic_glow.vtex" afterPath="$PROJECT_DIR$/materials/particle/basic_glow.vtex" />
+      <change beforePath="$PROJECT_DIR$/materials/particle/basic_rope.vtex" afterPath="$PROJECT_DIR$/materials/particle/basic_rope.vtex" />
+      <change beforePath="$PROJECT_DIR$/materials/particle/basic_rope_energy.vtex" afterPath="$PROJECT_DIR$/materials/particle/basic_rope_energy.vtex" />
+      <change beforePath="$PROJECT_DIR$/materials/particle/basic_smoke.vtex" afterPath="$PROJECT_DIR$/materials/particle/basic_smoke.vtex" />
+      <change beforePath="$PROJECT_DIR$/materials/particle/basic_trail.vtex" afterPath="$PROJECT_DIR$/materials/particle/basic_trail.vtex" />
+      <change beforePath="$PROJECT_DIR$/models/amethyst_wall.vmdl" afterPath="$PROJECT_DIR$/models/amethyst_wall.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/blacksmith.vmdl" afterPath="$PROJECT_DIR$/models/blacksmith.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/breaking_dog.vmdl" afterPath="$PROJECT_DIR$/models/breaking_dog.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/carnelian_wall.vmdl" afterPath="$PROJECT_DIR$/models/carnelian_wall.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/command_center.vmdl" afterPath="$PROJECT_DIR$/models/command_center.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/cry_wall.vmdl" afterPath="$PROJECT_DIR$/models/cry_wall.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/crysoprase_wall.vmdl" afterPath="$PROJECT_DIR$/models/crysoprase_wall.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/crystall.vmdl" afterPath="$PROJECT_DIR$/models/crystall.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/emerald_wall.vmdl" afterPath="$PROJECT_DIR$/models/emerald_wall.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/feed_box.vmdl" afterPath="$PROJECT_DIR$/models/feed_box.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/garnet_wall.vmdl" afterPath="$PROJECT_DIR$/models/garnet_wall.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/grave.vmdl" afterPath="$PROJECT_DIR$/models/grave.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/hitboxes/amethyst_wall.hitboxes" afterPath="$PROJECT_DIR$/models/hitboxes/amethyst_wall.hitboxes" />
+      <change beforePath="$PROJECT_DIR$/models/hitboxes/attach.attach" afterPath="$PROJECT_DIR$/models/hitboxes/attach.attach" />
+      <change beforePath="$PROJECT_DIR$/models/holy_blood.vmdl" afterPath="$PROJECT_DIR$/models/holy_blood.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/house.vmdl" afterPath="$PROJECT_DIR$/models/house.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/hram_lvl_1.vmdl" afterPath="$PROJECT_DIR$/models/hram_lvl_1.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/hram_lvl_2.vmdl" afterPath="$PROJECT_DIR$/models/hram_lvl_2.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/human_house.vmdl" afterPath="$PROJECT_DIR$/models/human_house.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/mine/mine.vmdl" afterPath="$PROJECT_DIR$/models/mine/mine.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/onyx_wall.vmdl" afterPath="$PROJECT_DIR$/models/onyx_wall.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/opal_spire.vmdl" afterPath="$PROJECT_DIR$/models/opal_spire.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/ruby_wall.vmdl" afterPath="$PROJECT_DIR$/models/ruby_wall.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/slayer_tavern.vmdl" afterPath="$PROJECT_DIR$/models/slayer_tavern.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/super_wall_health.vmdl" afterPath="$PROJECT_DIR$/models/super_wall_health.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/surplus.vmdl" afterPath="$PROJECT_DIR$/models/surplus.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/topaz_wall.vmdl" afterPath="$PROJECT_DIR$/models/topaz_wall.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/tower_flame.vmdl" afterPath="$PROJECT_DIR$/models/tower_flame.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/townhall.vmdl" afterPath="$PROJECT_DIR$/models/townhall.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/townhall_lvl2.vmdl" afterPath="$PROJECT_DIR$/models/townhall_lvl2.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/townhall_lvl_3.vmdl" afterPath="$PROJECT_DIR$/models/townhall_lvl_3.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/wall_tower.vmdl" afterPath="$PROJECT_DIR$/models/wall_tower.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/walls/carnelian_wall.vmdl" afterPath="$PROJECT_DIR$/models/walls/carnelian_wall.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/walls/wall_of_amethyst.vmdl" afterPath="$PROJECT_DIR$/models/walls/wall_of_amethyst.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/walls/wall_of_chrysoprase.vmdl" afterPath="$PROJECT_DIR$/models/walls/wall_of_chrysoprase.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/walls/wall_of_diamond.vmdl" afterPath="$PROJECT_DIR$/models/walls/wall_of_diamond.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/walls/wall_of_emerald.vmdl" afterPath="$PROJECT_DIR$/models/walls/wall_of_emerald.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/walls/wall_of_garnet.vmdl" afterPath="$PROJECT_DIR$/models/walls/wall_of_garnet.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/walls/wall_of_onyx.vmdl" afterPath="$PROJECT_DIR$/models/walls/wall_of_onyx.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/walls/wall_of_ruby.vmdl" afterPath="$PROJECT_DIR$/models/walls/wall_of_ruby.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/walls/wall_of_sapphire.vmdl" afterPath="$PROJECT_DIR$/models/walls/wall_of_sapphire.vmdl" />
+      <change beforePath="$PROJECT_DIR$/models/walls/wall_of_topaz.vmdl" afterPath="$PROJECT_DIR$/models/walls/wall_of_topaz.vmdl" />
+      <change beforePath="$PROJECT_DIR$/panorama/layout/custom_game/Custom_shop.xml" afterPath="$PROJECT_DIR$/panorama/layout/custom_game/Custom_shop.xml" />
+      <change beforePath="$PROJECT_DIR$/panorama/layout/custom_game/ShopToolTip.xml" afterPath="$PROJECT_DIR$/panorama/layout/custom_game/ShopToolTip.xml" />
+      <change beforePath="$PROJECT_DIR$/panorama/layout/custom_game/dialog_box.xml" afterPath="$PROJECT_DIR$/panorama/layout/custom_game/dialog_box.xml" />
+      <change beforePath="$PROJECT_DIR$/panorama/layout/custom_game/game_info.xml" afterPath="$PROJECT_DIR$/panorama/layout/custom_game/game_info.xml" />
+      <change beforePath="$PROJECT_DIR$/panorama/layout/custom_game/info_menu.xml" afterPath="$PROJECT_DIR$/panorama/layout/custom_game/info_menu.xml" />
+      <change beforePath="$PROJECT_DIR$/panorama/layout/custom_game/multiteam_flyout_scoreboard.xml" afterPath="$PROJECT_DIR$/panorama/layout/custom_game/multiteam_flyout_scoreboard.xml" />
+      <change beforePath="$PROJECT_DIR$/panorama/layout/custom_game/multiteam_flyout_scoreboard_player.xml" afterPath="$PROJECT_DIR$/panorama/layout/custom_game/multiteam_flyout_scoreboard_player.xml" />
+      <change beforePath="$PROJECT_DIR$/panorama/layout/custom_game/multiteam_flyout_scoreboard_team.xml" afterPath="$PROJECT_DIR$/panorama/layout/custom_game/multiteam_flyout_scoreboard_team.xml" />
+      <change beforePath="$PROJECT_DIR$/panorama/layout/custom_game/research_menu.xml" afterPath="$PROJECT_DIR$/panorama/layout/custom_game/research_menu.xml" />
+      <change beforePath="$PROJECT_DIR$/panorama/layout/custom_game/resource.xml" afterPath="$PROJECT_DIR$/panorama/layout/custom_game/resource.xml" />
+      <change beforePath="$PROJECT_DIR$/panorama/layout/custom_game/scripts.xml" afterPath="$PROJECT_DIR$/panorama/layout/custom_game/scripts.xml" />
+      <change beforePath="$PROJECT_DIR$/panorama/layout/custom_game/tooltip_custom_test.xml" afterPath="$PROJECT_DIR$/panorama/layout/custom_game/tooltip_custom_test.xml" />
+      <change beforePath="$PROJECT_DIR$/panorama/scripts/clicks.js" afterPath="$PROJECT_DIR$/panorama/scripts/clicks.js" />
+      <change beforePath="$PROJECT_DIR$/panorama/scripts/custom_game/Custom_shop.js" afterPath="$PROJECT_DIR$/panorama/scripts/custom_game/Custom_shop.js" />
+      <change beforePath="$PROJECT_DIR$/panorama/scripts/custom_game/bindkey" afterPath="$PROJECT_DIR$/panorama/scripts/custom_game/bindkey" />
+      <change beforePath="$PROJECT_DIR$/panorama/scripts/custom_game/buildmenu.js" afterPath="$PROJECT_DIR$/panorama/scripts/custom_game/buildmenu.js" />
+      <change beforePath="$PROJECT_DIR$/panorama/scripts/custom_game/info_menu.js" afterPath="$PROJECT_DIR$/panorama/scripts/custom_game/info_menu.js" />
+      <change beforePath="$PROJECT_DIR$/panorama/scripts/custom_game/research_menu.js" afterPath="$PROJECT_DIR$/panorama/scripts/custom_game/research_menu.js" />
+      <change beforePath="$PROJECT_DIR$/panorama/scripts/resource.js" afterPath="$PROJECT_DIR$/panorama/scripts/resource.js" />
+      <change beforePath="$PROJECT_DIR$/panorama/scripts/unit_selection.js" afterPath="$PROJECT_DIR$/panorama/scripts/unit_selection.js" />
+      <change beforePath="$PROJECT_DIR$/panorama/scripts/util.js" afterPath="$PROJECT_DIR$/panorama/scripts/util.js" />
+      <change beforePath="$PROJECT_DIR$/panorama/styles/custom_game/Custom_shop.css" afterPath="$PROJECT_DIR$/panorama/styles/custom_game/Custom_shop.css" />
+      <change beforePath="$PROJECT_DIR$/panorama/styles/custom_game/ShopToolTip.css" afterPath="$PROJECT_DIR$/panorama/styles/custom_game/ShopToolTip.css" />
+      <change beforePath="$PROJECT_DIR$/panorama/styles/custom_game/buildmenu.css" afterPath="$PROJECT_DIR$/panorama/styles/custom_game/buildmenu.css" />
+      <change beforePath="$PROJECT_DIR$/panorama/styles/custom_game/dialog_box.css" afterPath="$PROJECT_DIR$/panorama/styles/custom_game/dialog_box.css" />
+      <change beforePath="$PROJECT_DIR$/panorama/styles/custom_game/game_info.css" afterPath="$PROJECT_DIR$/panorama/styles/custom_game/game_info.css" />
+      <change beforePath="$PROJECT_DIR$/panorama/styles/custom_game/info_menu.css" afterPath="$PROJECT_DIR$/panorama/styles/custom_game/info_menu.css" />
+      <change beforePath="$PROJECT_DIR$/panorama/styles/custom_game/multiteam_flyout_scoreboard.css" afterPath="$PROJECT_DIR$/panorama/styles/custom_game/multiteam_flyout_scoreboard.css" />
+      <change beforePath="$PROJECT_DIR$/panorama/styles/custom_game/research_menu.css" afterPath="$PROJECT_DIR$/panorama/styles/custom_game/research_menu.css" />
+      <change beforePath="$PROJECT_DIR$/panorama/styles/custom_game/resource.css" afterPath="$PROJECT_DIR$/panorama/styles/custom_game/resource.css" />
+      <change beforePath="$PROJECT_DIR$/panorama/styles/custom_game/shared_scoreboard_styles.css" afterPath="$PROJECT_DIR$/panorama/styles/custom_game/shared_scoreboard_styles.css" />
+      <change beforePath="$PROJECT_DIR$/panorama/styles/custom_game/tooltip_custom_test.css" afterPath="$PROJECT_DIR$/panorama/styles/custom_game/tooltip_custom_test.css" />
+      <change beforePath="$PROJECT_DIR$/panorama/styles/custom_game/trademenu.css" afterPath="$PROJECT_DIR$/panorama/styles/custom_game/trademenu.css" />
+      <change beforePath="$PROJECT_DIR$/particles/buildinghelper/ghost_model.vpcf" afterPath="$PROJECT_DIR$/particles/buildinghelper/ghost_model.vpcf" />
+      <change beforePath="$PROJECT_DIR$/particles/buildinghelper/range_overlay.vpcf" afterPath="$PROJECT_DIR$/particles/buildinghelper/range_overlay.vpcf" />
+      <change beforePath="$PROJECT_DIR$/particles/buildinghelper/square_overlay.vpcf" afterPath="$PROJECT_DIR$/particles/buildinghelper/square_overlay.vpcf" />
+      <change beforePath="$PROJECT_DIR$/particles/buildinghelper/square_projected.vpcf" afterPath="$PROJECT_DIR$/particles/buildinghelper/square_projected.vpcf" />
+      <change beforePath="$PROJECT_DIR$/particles/buildinghelper/square_sprite.vpcf" afterPath="$PROJECT_DIR$/particles/buildinghelper/square_sprite.vpcf" />
+      <change beforePath="$PROJECT_DIR$/soundevents/soundevents_diagnostics.vsndevts" afterPath="$PROJECT_DIR$/soundevents/soundevents_diagnostics.vsndevts" />
+      <change beforePath="$PROJECT_DIR$/tempmodels/slayer_tavern.fbx" afterPath="$PROJECT_DIR$/tempmodels/slayer_tavern.fbx" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,22 +164,92 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="info_menu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/panorama/scripts/custom_game/info_menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+            <state relative-caret-position="1360">
+              <caret line="80" column="4" lean-forward="false" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info_menu.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="info_menu.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/panorama/styles/custom_game/info_menu.css">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orders.lua" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../game/dota_addons/vampirism/scripts/vscripts/orders.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilterExperience.lua" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../game/dota_addons/vampirism/scripts/vscripts/FilterExperience.lua">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="playertables_base.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/panorama/scripts/playertables/playertables_base.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2091">
+              <caret line="123" column="1" lean-forward="true" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Custom_shop.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/panorama/styles/custom_game/Custom_shop.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Custom_shop.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/panorama/layout/custom_game/Custom_shop.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crystall.vmdl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/crystall.vmdl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vampirism_1.vmat" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/materials/overviews/vampirism_1.vmat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -39,9 +260,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>teamcolors</find>
+      <find />
     </findStrings>
     <replaceStrings>
       <replace>teamColors</replace>
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -52,6 +275,9 @@
       <list>
         <option value="$PROJECT_DIR$/panorama/scripts/custom_game/info_menu.js" />
         <option value="$PROJECT_DIR$/panorama/styles/custom_game/info_menu.css" />
+        <option value="$PROJECT_DIR$/../../../game/dota_addons/vampirism/scripts/vscripts/FilterExperience.lua" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/panorama/scripts/clicks.js" />
       </list>
     </option>
   </component>
@@ -61,7 +287,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-6" />
     <option name="width" value="1440" />
     <option name="height" value="776" />
@@ -83,56 +309,52 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="vampirism" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vampirism" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="vampirism" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vampirism" type="47feb1d3:ProjectViewModuleNode" />
               <item name="vampirism" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vampirism" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vampirism" type="47feb1d3:ProjectViewModuleNode" />
               <item name="vampirism" type="462c0819:PsiDirectoryNode" />
               <item name="panorama" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vampirism" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vampirism" type="47feb1d3:ProjectViewModuleNode" />
               <item name="vampirism" type="462c0819:PsiDirectoryNode" />
               <item name="panorama" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vampirism" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vampirism" type="47feb1d3:ProjectViewModuleNode" />
               <item name="vampirism" type="462c0819:PsiDirectoryNode" />
               <item name="panorama" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="custom_game" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vampirism" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vampirism" type="462c0819:PsiDirectoryNode" />
-              <item name="panorama" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vampirism" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vampirism" type="462c0819:PsiDirectoryNode" />
-              <item name="panorama" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="custom_game" type="462c0819:PsiDirectoryNode" />
+              <item name="playertables" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../game/dota_addons/vampirism/scripts" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,31 +382,36 @@
       <option name="presentableId" value="Default" />
       <updated>1566122629749</updated>
       <workItem from="1566122631047" duration="1225000" />
+      <workItem from="1604596297792" duration="617000" />
+      <workItem from="1604597125867" duration="3389000" />
+      <workItem from="1604767576178" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1225000" />
+    <option name="totallyTimeSpent" value="5830000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17386723" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="LuaCheck" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -201,7 +428,95 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/panorama/scripts/custom_game/info_menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="1360">
+          <caret line="80" column="4" lean-forward="false" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panorama/styles/custom_game/info_menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../game/dota_addons/vampirism/scripts/vscripts/orders.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../game/dota_addons/vampirism/scripts/vscripts/FilterExperience.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panorama/scripts/playertables/playertables_base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="123" column="1" lean-forward="true" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panorama/styles/custom_game/Custom_shop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panorama/layout/custom_game/Custom_shop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/crystall.vmdl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materials/overviews/vampirism_1.vmat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panorama/scripts/custom_game/info_menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="4" lean-forward="false" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panorama/styles/custom_game/info_menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panorama/scripts/custom_game/info_menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
           <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
           <folding />
         </state>
@@ -210,7 +525,100 @@
     <entry file="file://$PROJECT_DIR$/panorama/styles/custom_game/info_menu.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panorama/scripts/custom_game/info_menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="4" lean-forward="false" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panorama/styles/custom_game/info_menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../game/dota_addons/vampirism/scripts/vscripts/orders.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panorama/scripts/clicks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="834">
+          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panorama/scripts/resource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../game/dota_addons/vampirism/scripts/vscripts/FilterExperience.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panorama/scripts/playertables/playertables_base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="123" column="1" lean-forward="true" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panorama/styles/custom_game/Custom_shop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/panorama/layout/custom_game/Custom_shop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/crystall.vmdl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/materials/overviews/vampirism_1.vmat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="8" />
           <folding />
         </state>
       </provider>

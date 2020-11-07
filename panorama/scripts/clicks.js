@@ -31,8 +31,8 @@ function OnRightButtonPressed()
     var pressedShift = GameUI.IsShiftDown()
     // Tree Cut Order Right-Click
     var cursor = GameUI.GetCursorPosition();
-	var mouseEntities = GameUI.FindScreenEntities( cursor );
-	mouseEntities = mouseEntities.filter( function(e) { return e.entityIndex != mainSelected; } )
+    var mouseEntities = GameUI.FindScreenEntities( cursor );
+    mouseEntities = mouseEntities.filter( function(e) { return e.entityIndex != mainSelected; } )
     var targetindex = mouseEntities.filter( function(e) { return Entities.GetClassname(e.entityIndex) == "ent_dota_tree"; } )
     var localHeroIndex = Players.GetPlayerHeroEntityIndex( Game.GetLocalPlayerID() );
     if (Entities.GetUnitLabel(mainSelected)=='gatherunit')

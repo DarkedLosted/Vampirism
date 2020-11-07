@@ -2,11 +2,11 @@
 
 Layer0
 {
-	shader "global_lit_simple.vfx"
+    shader "global_lit_simple.vfx"
 
-	//---- Color ----
-	g_vColorTint "[0.278431 0.243137 0.243137 0.000000]"
-	g_vTexCoordOffset "[0.000 0.000]"
-	g_vTexCoordScale "[1.000 1.000]"
-	TextureColor "materials/wall/felwoodstructures.tga"
+    //---- Color ----
+    g_vColorTint "[0.278431 0.243137 0.243137 0.000000]"
+    g_vTexCoordOffset "[0.000 0.000]"
+    g_vTexCoordScale "[1.000 1.000]"
+    TextureColor "materials/wall/felwoodstructures.tga"
 }

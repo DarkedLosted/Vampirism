@@ -1,19 +1,19 @@
 <root>
-	<styles>
-		<include src="file://{resources}/styles/custom_game/game_info.css" />
-		
-	</styles>
-	
-	<scripts>
-		
-	</scripts>
-	
-		<Panel class="root" hittest="false">
-			<Label id="Title" text="How to Play" />
-			<Label html="true" id="Description" text="#Description_Guide" />
-		</Panel>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/game_info.css" />
 
-		
+    </styles>
+
+    <scripts>
+
+    </scripts>
+
+        <Panel class="root" hittest="false">
+            <Label id="Title" text="How to Play" />
+            <Label html="true" id="Description" text="#Description_Guide" />
+        </Panel>
+
+
 
 
 </root>

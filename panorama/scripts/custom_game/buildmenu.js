@@ -92,7 +92,7 @@ function buildui(name,event){
     Container.SetHasClass("Hidden", hidden);
  //    $.Msg("buildui_command")
 
-	// $.Msg("buildui_command name ability:"+name)
+    // $.Msg("buildui_command name ability:"+name)
     var plyID = Game.GetLocalPlayerID();
     //var localHeroIndex = Players.GetPlayerHeroEntityIndex( Game.GetLocalPlayerID() );
     var localHeroIndex = Players.GetLocalPlayerPortraitUnit();
@@ -196,7 +196,7 @@ function InitialPanel(buildingTable,int)
 
 
 function Hover(name){
-	 hovering = $("#"+name)
+     hovering = $("#"+name)
     var tooltip_name = "build_"+name
     if (hovering.BHasClass("DisabledAbility"))
         tooltip_name = tooltip_name+"_disabled"
@@ -205,21 +205,21 @@ function Hover(name){
 
 
 function OnMouseOut(name){
-	 hovering = $("#"+name)
-	var tooltip_name = "build_"+name
-	if (hovering.BHasClass("DisabledAbility"))
+     hovering = $("#"+name)
+    var tooltip_name = "build_"+name
+    if (hovering.BHasClass("DisabledAbility"))
         tooltip_name = tooltip_name+"_disabled"
-	$.DispatchEvent( "DOTAHideAbilityTooltip", hovering);
+    $.DispatchEvent( "DOTAHideAbilityTooltip", hovering);
 }
 
 function OnBuildingPlayer()
 {
-	var table = CustomNetTables.GetTableValue( "buildings" ,"");
+    var table = CustomNetTables.GetTableValue( "buildings" ,"");
     var t = CustomNetTables.GetTableValue( "buildings" ,Game.GetLocalPlayerID());
     var temp = t[1]
    // $.Msg(temp)
     //var buildtable = temp[Game.GetLocalPlayerID()];
-   	for (var towerName in building)
+       for (var towerName in building)
     {
       CheckRequirements(towerName, building[towerName], temp)
     }

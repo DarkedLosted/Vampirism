@@ -1,53 +1,53 @@
 <root>
-	<styles>
-		<include src="file://{resources}/styles/custom_game/info_menu.css" />
-		
-	</styles>
-	
-	<scripts>
-		<include src="file://{resources}/scripts/custom_game/info_menu.js" />
-	</scripts>
-	
-		<Panel class="root" hittest="false">
-			<Panel id="MenuInfoMain" onactivate="Toggle()" > 
-				<Label text="Player Information" class="TitleLabel" style="width:100%;"/>
-			</Panel>
-			<Panel id="MenuContainer">
-					<Label class="TeamName" text="Humans" />
-					<Panel class="TitleContainer">
-						<Label class="TitleLabel" text="Player" />
-						<Label class="TitleLabel" text="Gold" />
-						<Label class="TitleLabel" text="Lumber" />
-						<Label class="TitleLabel" text="Fed" />
-						<Label class="TitleLabel" text="Rank" />
-					</Panel>
-						<Panel id="HumansContainer">
-						
-						<Panel class="Player" id="HumanPlayer"/>
-						<Panel class="Gold" id="HumanGold"/>
-						<Panel class="Lumber" id="HumanLumber"/>
-						<Panel class="Fed" id="HumanFed"/>
-						<Panel class="Rank" id="HumanRank"/>
-						</Panel>
-							<Label class="TeamName" text="Vampire" />
-							<Panel class="TitleContainer">
-								<Label class="TitleLabel" text="Player" />
-								<Label class="TitleLabel" text="Gold" />
-								<Label class="TitleLabel" text="Lumber" />
-								<Label class="TitleLabel" text="Leaked" />
-								<Label class="TitleLabel" text="Rank" />
-							</Panel>
-						<Panel id="VampireContainer">
-						<Panel class="Player" id="VampirePlayer"/>
-						<Panel class="Gold" id="VampireGold"/>
-						<Panel class="Lumber" id="VampireLumber"/>
-						<Panel class="Leaked" id="VampireLeaked"/>
-						<Panel class="Rank" id="VampireRank"/>
-						</Panel>
-			</Panel>
-		</Panel>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/info_menu.css" />
 
-		
+    </styles>
+
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/info_menu.js" />
+    </scripts>
+
+        <Panel class="root" hittest="false">
+            <Panel id="MenuInfoMain" onactivate="Toggle()" >
+                <Label text="Player Information" class="TitleLabel" style="width:100%;"/>
+            </Panel>
+            <Panel id="MenuContainer">
+                    <Label class="TeamName" text="Humans" />
+                    <Panel class="TitleContainer">
+                        <Label class="TitleLabel" text="Player" />
+                        <Label class="TitleLabel" text="Gold" />
+                        <Label class="TitleLabel" text="Lumber" />
+                        <Label class="TitleLabel" text="Fed" />
+                        <Label class="TitleLabel" text="Rank" />
+                    </Panel>
+                        <Panel id="HumansContainer">
+
+                        <Panel class="Player" id="HumanPlayer"/>
+                        <Panel class="Gold" id="HumanGold"/>
+                        <Panel class="Lumber" id="HumanLumber"/>
+                        <Panel class="Fed" id="HumanFed"/>
+                        <Panel class="Rank" id="HumanRank"/>
+                        </Panel>
+                            <Label class="TeamName" text="Vampire" />
+                            <Panel class="TitleContainer">
+                                <Label class="TitleLabel" text="Player" />
+                                <Label class="TitleLabel" text="Gold" />
+                                <Label class="TitleLabel" text="Lumber" />
+                                <Label class="TitleLabel" text="Leaked" />
+                                <Label class="TitleLabel" text="Rank" />
+                            </Panel>
+                        <Panel id="VampireContainer">
+                        <Panel class="Player" id="VampirePlayer"/>
+                        <Panel class="Gold" id="VampireGold"/>
+                        <Panel class="Lumber" id="VampireLumber"/>
+                        <Panel class="Leaked" id="VampireLeaked"/>
+                        <Panel class="Rank" id="VampireRank"/>
+                        </Panel>
+            </Panel>
+        </Panel>
+
+
 
 
 </root>

@@ -263,7 +263,7 @@ function ItemPanelInitialHuman() {
         var lumber = table[HumanItems[itemtindex]].lumber
         var timeRestock = table[HumanItems[itemtindex]].time
         var storetype = 1
-        var Item = ItemHeaderRow.BCreateChildren("<DOTAItemImage id='Item" + itemtindex + "' class='item' onfocus='' oncontextmenu='Buy(" + tempvar + ")' scaling='stretch-to-fit-y-preserve-aspect' itemname='" + HumanItems[itemtindex] + "'  onmouseover='UIShowCustomLayoutParametersTooltip(	ItemTooltip,  file://{resources}/layout/custom_game/ShopToolTip.xml,teststring=" + HumanItems[itemtindex] + "&amp;gold=" + gold + "&amp;lumber=" + lumber + "&amp;time=" + timeRestock + ")'  onmouseout='UIHideCustomLayoutTooltip(ItemTooltip)'  />");
+        var Item = ItemHeaderRow.BCreateChildren("<DOTAItemImage id='Item" + itemtindex + "' class='item' onfocus='' oncontextmenu='Buy(" + tempvar + ")' scaling='stretch-to-fit-y-preserve-aspect' itemname='" + HumanItems[itemtindex] + "'  onmouseover='UIShowCustomLayoutParametersTooltip(    ItemTooltip,  file://{resources}/layout/custom_game/ShopToolTip.xml,teststring=" + HumanItems[itemtindex] + "&amp;gold=" + gold + "&amp;lumber=" + lumber + "&amp;time=" + timeRestock + ")'  onmouseout='UIHideCustomLayoutTooltip(ItemTooltip)'  />");
         var itemStock = $.CreatePanel("Panel", ItemHeaderRow.FindChild('Item' + itemtindex), 'ItemStock' + tempvar)
         itemStock.AddClass("itemStock")
         itemtindex++;
@@ -286,7 +286,7 @@ function ItemPanelInitial() {
                 var lumber = table[items[tindex]].lumber
                 var timeRestock = table[items[tindex]].time
                 var storetype = 2
-                var Item = ItemHeaderRow.BCreateChildren("<DOTAItemImage id='Item" + tindex + "' class='item' onfocus='' oncontextmenu='Buy(" + tindex + ")' scaling='stretch-to-fit-y-preserve-aspect' itemname='" + items[tindex] + "'  onmouseover='UIShowCustomLayoutParametersTooltip(	ItemTooltip,  file://{resources}/layout/custom_game/ShopToolTip.xml,teststring=" + items[tindex] + "&amp;gold=" + gold + "&amp;lumber=" + lumber + "&amp;time=" + timeRestock + ")'  onmouseout='UIHideCustomLayoutTooltip(ItemTooltip)'  />");
+                var Item = ItemHeaderRow.BCreateChildren("<DOTAItemImage id='Item" + tindex + "' class='item' onfocus='' oncontextmenu='Buy(" + tindex + ")' scaling='stretch-to-fit-y-preserve-aspect' itemname='" + items[tindex] + "'  onmouseover='UIShowCustomLayoutParametersTooltip(    ItemTooltip,  file://{resources}/layout/custom_game/ShopToolTip.xml,teststring=" + items[tindex] + "&amp;gold=" + gold + "&amp;lumber=" + lumber + "&amp;time=" + timeRestock + ")'  onmouseout='UIHideCustomLayoutTooltip(ItemTooltip)'  />");
                 var itemStock = $.CreatePanel("Panel", ItemHeaderRow.FindChild('Item' + tindex), 'ItemStock' + tindex)
                 itemStock.AddClass("itemStock")
             }

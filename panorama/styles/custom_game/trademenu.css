@@ -1,11 +1,11 @@
 .Root{
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 
 }
 
 #Container{
-	width: 26%;
+    width: 26%;
     height: 63%;
     horizontal-align: center;
     vertical-align: center;
@@ -19,41 +19,41 @@
     box-shadow: #000 -4px -4px 3px 8px;
 }
 .Hidden{
-	visibility: collapse;
-	opacity: 0;
+    visibility: collapse;
+    opacity: 0;
 }
 #CloseButton
 {
-	vertical-align: top;
+    vertical-align: top;
     horizontal-align: right;
     width: 24px;
     height: 24px;
     wash-color: #888888;
-    
+
     background-image: url("s2r://panorama/images/control_icons/x_close_png.vtex");
     background-size: 24px 24px;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     margin: 4px;
-    
+
     transition-property: wash-color, pre-transform-scale2d, background-color;
     transition-duration: 0.1s;
     transition-timing-function: ease-in;
 }
 #TitleContainer
 {
-	width: 100%;
-	flow-children: right;
+    width: 100%;
+    flow-children: right;
 
 }
 .DAI{
-	width: 10%;
-	height:10%;
-	
+    width: 10%;
+    height:10%;
+
 }
 .DUI{
-	width: 20%;
-	horizontal-align: center;
+    width: 20%;
+    horizontal-align: center;
     vertical-align: center;
    // margin-bottom: 0px;
     //margin-left: 5px;
@@ -62,28 +62,28 @@
    }
 .imggold{
 
-	width: 8%;
-	height: 100%;
-	background-image: url("s2r://panorama/images/hud/icon_gold_psd.vtex");
-	background-size: 100%;
-	horizontal-align: right;
+    width: 8%;
+    height: 100%;
+    background-image: url("s2r://panorama/images/hud/icon_gold_psd.vtex");
+    background-size: 100%;
+    horizontal-align: right;
     vertical-align: center;
     margin-left: 10px;
     margin-right: 10px;
 }
 .imglumber{
 
-	width: 8%;
-	height: 60%;
-	margin-left: 3%;
-	background-image: url("s2r://panorama/images/custom_game/lumber_icon.png"); 
-	background-size: 100%;
-	horizontal-align: center;
+    width: 8%;
+    height: 60%;
+    margin-left: 3%;
+    background-image: url("s2r://panorama/images/custom_game/lumber_icon.png");
+    background-size: 100%;
+    horizontal-align: center;
     vertical-align: center;
      margin-right: 10px;
 }
 #TradeMenuBttn{
-	width: 110px;
+    width: 110px;
     height: 100px;
     margin-left: 22%;
     margin-bottom: 2%;
@@ -92,10 +92,10 @@
 }
 #TradeMenuBttn:hover
 {
-	 brightness: 2.0;
+     brightness: 2.0;
 }
 #TradeLabel{
-	width: 100%;
+    width: 100%;
     height: 80px;
     horizontal-align: center;
     vertical-align: bottom;
@@ -108,19 +108,19 @@
 
 }
 .PlayerColor{
-	
-	background-color: #fff;
-	width: 7%;
-	height: 60%;
-	horizontal-align: right;
+
+    background-color: #fff;
+    width: 7%;
+    height: 60%;
+    horizontal-align: right;
     vertical-align: center;
     margin-left: 30px;
 }
 .ContainerLabel{
-	font-size: 18px;
-	color: #cbcbcb;
+    font-size: 18px;
+    color: #cbcbcb;
 
-	text-align: center;
+    text-align: center;
 }
 #PlayerName{
 margin-left: 8%;
@@ -144,78 +144,78 @@ vertical-align: center;
 }
 
 #PlayerContainer{
-	flow-children: down-wrap;
-	width: 100%;
-	padding-bottom: 2px;
-	background-color: #2a2a29;
-	 background-color: gradient( linear,0% 0%, 100% 0%, from( #070000 ),color-stop( 0.3, #4c0001 ), to( #070000 ) );	
+    flow-children: down-wrap;
+    width: 100%;
+    padding-bottom: 2px;
+    background-color: #2a2a29;
+     background-color: gradient( linear,0% 0%, 100% 0%, from( #070000 ),color-stop( 0.3, #4c0001 ), to( #070000 ) );
 }
 .Player{
-	flow-children: right;
-	width: 99%;
+    flow-children: right;
+    width: 99%;
 
-	padding-bottom: 0px;
-	background-color: #00000055;
-	/* border: 1px solid #484A48;*/
-	 border: 1px solid #4c0001;
-	 
+    padding-bottom: 0px;
+    background-color: #00000055;
+    /* border: 1px solid #484A48;*/
+     border: 1px solid #4c0001;
+
 }
 
 .TextBoxg{
-	
+
     vertical-align: center;
     color: gold;
-	background-color: #00000055;
-	font-size: 18px;
-	width: 60px;
-	height: 50%;
+    background-color: #00000055;
+    font-size: 18px;
+    width: 60px;
+    height: 50%;
 }
 
 .TextBoxl
 {
     vertical-align: center;
     color: green;
-	background-color: #00000055;
-	font-size: 18px;
-	width: 15%;
-	height: 50%;
+    background-color: #00000055;
+    font-size: 18px;
+    width: 15%;
+    height: 50%;
 
-	text-overflow: clip;
+    text-overflow: clip;
 }
 
 #NotificationList
 {
-	width: 18%;
+    width: 18%;
 
-	height: 40%;
-	vertical-align: bottom;
-	horizontal-align:left;
-	margin-bottom: 24%;
-	/*background-color: black;*/
-	flow-children:down;
+    height: 40%;
+    vertical-align: bottom;
+    horizontal-align:left;
+    margin-bottom: 24%;
+    /*background-color: black;*/
+    flow-children:down;
 }
 .NotificationMessageHolder
 {
-	width: 100%;
-	height: 30px;
-	vertical-align: bottom;
-	background-color: gradient( linear,0% 0%, 77% 0%, from( #070000 ),color-stop( 0.3, #4c0001 ), to( #070000 ) );
-	opacity: 0.7;
-	border-radius: 3px;
+    width: 100%;
+    height: 30px;
+    vertical-align: bottom;
+    background-color: gradient( linear,0% 0%, 77% 0%, from( #070000 ),color-stop( 0.3, #4c0001 ), to( #070000 ) );
+    opacity: 0.7;
+    border-radius: 3px;
 
 }
 .NotificationMessage
 {
-	/*width: 100%;
-	height: 100%;*/
-	width: 100%;
-	vertical-align: center;
-	margin-left: 5px;
-	color:white;
-	font-size: 20px;
-	font-weight: bold;
-	font-family: Radiance;
-	padding-bottom: 5px;
-	padding-top: 5px;
+    /*width: 100%;
+    height: 100%;*/
+    width: 100%;
+    vertical-align: center;
+    margin-left: 5px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Radiance;
+    padding-bottom: 5px;
+    padding-top: 5px;
 
 }

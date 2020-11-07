@@ -1,55 +1,55 @@
 @define dotalevelgradient: gradient( linear, 0% 0%, 0% 100%, from( #BBCAEA ), color-stop( 0.5, #ffffff), color-stop( 0.5, #D9DFEC), to( #BBCAEA ) );
 .ResearchUI
 {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 
 }
 
 .Hidden{
-	visibility: collapse;
-	opacity: 0;
+    visibility: collapse;
+    opacity: 0;
 }
 .ProgressBar
 {
-	box-shadow: inset #1f2020 2px 2px 4px 4px;
-	background-color: #464748;
-	border:1px solid #3d4746;
+    box-shadow: inset #1f2020 2px 2px 4px 4px;
+    background-color: #464748;
+    border:1px solid #3d4746;
 
-	width:200px;
-	height: 22px;
-	horizontal-align:center;
-	vertical-align: center;
+    width:200px;
+    height: 22px;
+    horizontal-align:center;
+    vertical-align: center;
 
 }
 .ProgressBarLeft
 {
-	//box-shadow: #61789Caa -2px -2px 4px 4px;
-	border-radius: 2px;
-	transition-property: width;
-	transition-duration: 0.1s;
-	transition-timing-function: linear;
-	background-color: gradient( linear, 0% 0%, 0% 100%, from( #425d25  ), color-stop( 0.2, #5BA539 ), color-stop( .5, #4D9030), to( #425d25) );
-	
+    //box-shadow: #61789Caa -2px -2px 4px 4px;
+    border-radius: 2px;
+    transition-property: width;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    background-color: gradient( linear, 0% 0%, 0% 100%, from( #425d25  ), color-stop( 0.2, #5BA539 ), color-stop( .5, #4D9030), to( #425d25) );
+
 }
 .Pulse
 {
-	animation-name: pulseglowhover;
-	animation-duration: 2.5s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-	box-shadow: fill #002a66 -4px -4px 8px 9px;
+    animation-name: pulseglowhover;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    box-shadow: fill #002a66 -4px -4px 8px 9px;
 }
 @keyframes 'ResearchProgress'
 {
-	0%
-	{
-		box-shadow: #00FF00FF -2px -2px 5px 5px;
-	}
-	50%
-	{
+    0%
+    {
+        box-shadow: #00FF00FF -2px -2px 5px 5px;
+    }
+    50%
+    {
         box-shadow: #00BB00FF -2px -2px 5px 5px;
-	}
+    }
     100%
     {
         box-shadow: #00FF00FF -2px -2px 5px 5px;
@@ -57,218 +57,218 @@
 }
 @keyframes 'pulseglowhover'
 {
-	0%
-	{
-		background-color: gradient( linear, 0% 0%, 0% 100%, from( #67aeff ), to( #3c608d44 ) );
-	}
+    0%
+    {
+        background-color: gradient( linear, 0% 0%, 0% 100%, from( #67aeff ), to( #3c608d44 ) );
+    }
 
-	50%
-	{
-		background-color: gradient( linear, 0% 0%, 0% 100%, from( #406a9f ), to( #3c608c44 ) );
-	}
-	
-	100%
-	{
-		background-color: gradient( linear, 0% 0%, 0% 100%, from( #67aeff ), to( #3c608d44 ) );
-	}
+    50%
+    {
+        background-color: gradient( linear, 0% 0%, 0% 100%, from( #406a9f ), to( #3c608c44 ) );
+    }
+
+    100%
+    {
+        background-color: gradient( linear, 0% 0%, 0% 100%, from( #67aeff ), to( #3c608d44 ) );
+    }
 }
 #researchCompleteLable
 {
-	vertical-align: bottom;
-	horizontal-align:center;
-	margin-bottom: 17%;
-	color:gold;
-	font-size: 36px;
-	font-family: "Comic Sans MS";
-	font-weight: bold;
-	text-shadow: 4px 4px 16px 3.0 #333333b0;
+    vertical-align: bottom;
+    horizontal-align:center;
+    margin-bottom: 17%;
+    color:gold;
+    font-size: 36px;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    text-shadow: 4px 4px 16px 3.0 #333333b0;
 
 
 }
 #Displayimage
 {
-	border:1px solid #3d4746;
-	border-radius: 50%;
+    border:1px solid #3d4746;
+    border-radius: 50%;
 }
 #DisplayResearch
 {
-	flow-children:right;
-	vertical-align: top;
-	horizontal-align:left;
-	margin-top: 70px;
+    flow-children:right;
+    vertical-align: top;
+    horizontal-align:left;
+    margin-top: 70px;
 }
 .ResearchComplete
 {
-	border:2px solid gold;
-	 saturation: 0.4;
-//	border-radius: 100%;
+    border:2px solid gold;
+     saturation: 0.4;
+//    border-radius: 100%;
 }
 .ResearchinProgress
 {
-	 animation-name: ResearchProgress;
-	animation-duration: 1.5s;
-	animation-timing-function: ease-in-out;
+     animation-name: ResearchProgress;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 
 }
 #ResearchBarLabel
 {
-	font-size: 16px;
-	color:silver;
-	horizontal-align:center;
-	font-weight: bold;
+    font-size: 16px;
+    color:silver;
+    horizontal-align:center;
+    font-weight: bold;
 }
 
 #ResearchToogle
 {
-	width: 150px;
-	height:45px;
-	horizontal-align:center;
-	vertical-align: top;
-	margin-right: 230px;
-	border:2px solid #3b404777;
-	 background-image: url("s2r://panorama/images/hud/reborn/ability_bg_psd.vtex");
-	
+    width: 150px;
+    height:45px;
+    horizontal-align:center;
+    vertical-align: top;
+    margin-right: 230px;
+    border:2px solid #3b404777;
+     background-image: url("s2r://panorama/images/hud/reborn/ability_bg_psd.vtex");
+
 }
 #ResearchToogle:Hover
 {
-	brightness:3.2;
+    brightness:3.2;
 }
 #ResearchToogleLabel
 {
-	font-size: 25px;
-	color:silver;
-	vertical-align: center;
-	horizontal-align:center;
-	font-weight: bold;
+    font-size: 25px;
+    color:silver;
+    vertical-align: center;
+    horizontal-align:center;
+    font-weight: bold;
 }
 .ContainerHeader
 {
-	
-	height:4%;
-	horizontal-align:center;
-	font-size: 32px;
-	color: gradient( linear, 0% 0%, 0% 100%, from( #cedce7 ), to( #596a72 ) );
+
+    height:4%;
+    horizontal-align:center;
+    font-size: 32px;
+    color: gradient( linear, 0% 0%, 0% 100%, from( #cedce7 ), to( #596a72 ) );
 
 }
 #ResearchContainer
 {
-	width: 80%;
-	height: 87%;
-	background-image: url("s2r://panorama/images/backgrounds/gallery_background_png.vtex");
+    width: 80%;
+    height: 87%;
+    background-image: url("s2r://panorama/images/backgrounds/gallery_background_png.vtex");
 
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	 horizontal-align:center;
-	vertical-align: center;
-	flow-children:down;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+     horizontal-align:center;
+    vertical-align: center;
+    flow-children:down;
 }
 .ColumnContainer
-{	width: 100%;
-	height: 96%;
-	opacity: 0.7;
+{    width: 100%;
+    height: 96%;
+    opacity: 0.7;
 
-	flow-children:right;
-	 horizontal-align:center;
-	vertical-align: bottom;
+    flow-children:right;
+     horizontal-align:center;
+    vertical-align: bottom;
 }
 .ResearchColumn
 {
-	 //background-color: #000000DD;
-	 margin-top: 40px;
-	height: 94%;
-	width:13%;
-	flow-children:down;
-	horizontal-align:left;
-	vertical-align: center;
+     //background-color: #000000DD;
+     margin-top: 40px;
+    height: 94%;
+    width:13%;
+    flow-children:down;
+    horizontal-align:left;
+    vertical-align: center;
 
 }
 .AbilityImage
 {
-	height: 70px;
-	width: 70px;
-	horizontal-align:center;
-	vertical-align: top;
-	//margin-top: 20px;
-	
-   
+    height: 70px;
+    width: 70px;
+    horizontal-align:center;
+    vertical-align: top;
+    //margin-top: 20px;
+
+
 }
 
 
 
- 
+
 .AbilityImageDisabled
 {
-	saturation: 0.02;
+    saturation: 0.02;
 }
 .ResearchHeaderLine
 {
-	background-color: #3b3f40;
-	width: 100%;
-	height: 3px;
-	 padding-bottom: 3px;
+    background-color: #3b3f40;
+    width: 100%;
+    height: 3px;
+     padding-bottom: 3px;
 
 }
 
 .ResearchHeader
 {
- 
-	font-size: 18px;
-	color:#939da0;
-	text-transform: uppercase;
-	font-weight: thin;
-	horizontal-align: center;
+
+    font-size: 18px;
+    color:#939da0;
+    text-transform: uppercase;
+    font-weight: thin;
+    horizontal-align: center;
 }
 .ResearchLine
 {
-	width: 3px;
-	background-color: gray;
-//	height: 300px;
-	horizontal-align:center;
+    width: 3px;
+    background-color: gray;
+//    height: 300px;
+    horizontal-align:center;
 }
 .ResearchLineComplete
 {
-	background-color: gold;
+    background-color: gold;
 }
 .ButtonsContainer
 {
-	width: 100%;
-	height: 6%;
-	flow-children:right;
-	vertical-align: top;
-	horizontal-align:left;
-	
+    width: 100%;
+    height: 6%;
+    flow-children:right;
+    vertical-align: top;
+    horizontal-align:left;
+
 }
 .Rbutton
 {
-	width: 33%;
-	height: 100%;
-	border: 2px solid #3b3f40;
+    width: 33%;
+    height: 100%;
+    border: 2px solid #3b3f40;
 background-image: url("s2r://panorama/images/hud/pa_gravestone_bg_png.vtex");
-	
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 
 }
 .Rbutton:selected
 {
-	brightness:2.2;
+    brightness:2.2;
 }
 .Rbutton:hover
 {
-	brightness:4.5;
+    brightness:4.5;
 }
 .RbuttonLabel
 {
-	text-align: center;
-	vertical-align: center;
-	horizontal-align:center;
-	font-size: 43px;
-	color:gradient( linear, 0% 0%, 36% 100%, from( #b5bdc8 ), to( #28343b ) );
-}		
+    text-align: center;
+    vertical-align: center;
+    horizontal-align:center;
+    font-size: 43px;
+    color:gradient( linear, 0% 0%, 36% 100%, from( #b5bdc8 ), to( #28343b ) );
+}
 .ResearchToggleEnabled
 {
-	animation-name: OpacityPulse;
+    animation-name: OpacityPulse;
    animation-duration: .82s;
    animation-iteration-count: 10;
 }

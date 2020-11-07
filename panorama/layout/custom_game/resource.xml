@@ -1,31 +1,31 @@
 <root>
-	<styles>
-		<include src="file://{resources}/styles/custom_game/resource.css" />
-	</styles>
-	<scripts>
-		<include src="file://{resources}/scripts/resource.js" />
-	</scripts>
-	<script>
-		$.Msg( "Compiled Panorama Resource!" );
-	</script>
-	<Panel hittest="false" class='Main'>
-		<Panel hittest="false" class='ResourcePanel'>
-			<Panel class="LumberPanel">
-				<Image hittest="false" id="LumberIcon" src="file://{images}/custom_game/lumber_icon.png" />
-				<Label id="LumberText" text="" html="true" class="TitleFont" />
-				
-			</Panel>
-			<Panel class="GoldPanel">
-				<Image hittest="false" id="GoldIcon" src="file://{images}/custom_game/gold.tga" />
-				<Label id="GoldText" text="0"  class="TitleFont" />
-				
-			</Panel>
-			<Panel class="FoodPanel">
-				<Image hittest="false" id="FoodIcon" src="file://{images}/custom_game/food.tga" />
-				<Label id="FoodText" text="0/" html="true" class="TitleFont" />
-				<Label id="MaxFoodText" text="30" html="true" class="TitleFont" />
-				
-			</Panel>
-		</Panel>
-	</Panel>	
+    <styles>
+        <include src="file://{resources}/styles/custom_game/resource.css" />
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/resource.js" />
+    </scripts>
+    <script>
+        $.Msg( "Compiled Panorama Resource!" );
+    </script>
+    <Panel hittest="false" class='Main'>
+        <Panel hittest="false" class='ResourcePanel'>
+            <Panel class="LumberPanel">
+                <Image hittest="false" id="LumberIcon" src="file://{images}/custom_game/lumber_icon.png" />
+                <Label id="LumberText" text="" html="true" class="TitleFont" />
+
+            </Panel>
+            <Panel class="GoldPanel">
+                <Image hittest="false" id="GoldIcon" src="file://{images}/custom_game/gold.tga" />
+                <Label id="GoldText" text="0"  class="TitleFont" />
+
+            </Panel>
+            <Panel class="FoodPanel">
+                <Image hittest="false" id="FoodIcon" src="file://{images}/custom_game/food.tga" />
+                <Label id="FoodText" text="0/" html="true" class="TitleFont" />
+                <Label id="MaxFoodText" text="30" html="true" class="TitleFont" />
+
+            </Panel>
+        </Panel>
+    </Panel>
 </root>
